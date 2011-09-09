@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/lib/librilswitch.so:system/lib/librilswitch.so \
 	vendor/motorola/begonia/lib/libsmapi.so:system/lib/libsmapi.so \
 	vendor/motorola/begonia/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
+	vendor/motorola/begonia/lib/hw/gps.begonia.so:system/lib/hw/gps.begonia.so \
 	vendor/motorola/begonia/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
 	vendor/motorola/begonia/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
 	vendor/motorola/begonia/lib/dsp/h264vdec_sn.dll64P:system/lib/dsp/h264vdec_sn.dll64P \
@@ -77,11 +78,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
 	vendor/motorola/begonia/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/motorola/begonia/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so 
-	#vendor/motorola/begonia/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
-	#vendor/motorola/begonia/lib/libOMX.TI.AMR.decode.so:/system/lib/libOMX.TI.AMR.decode.so \
-	#vendor/motorola/begonia/lib/libOMX.TI.MP3.decode.so:/system/lib/libOMX.TI.MP3.decode.so \
-	#vendor/motorola/begonia/lib/libOMX.TI.WBAMR.decode.so:/system/lib/libOMX.TI.WBAMR.decode.so \
-	#vendor/motorola/begonia/lib/libOMX.TI.WMA.decode.so:/system/lib/libOMX.TI.WMA.decode.so \
 
 #etc
 PRODUCT_COPY_FILES += \
