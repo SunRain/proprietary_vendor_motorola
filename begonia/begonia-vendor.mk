@@ -13,11 +13,17 @@
 # limitations under the License.
 
 
+# Prebuilt libraries that are needed to build open-source libraries
+PRODUCT_COPY_FILES := \
+	vendor/motorola/begonia/lib/libaudio.so:obj/lib/libaudio.so \
+	vendor/motorola/begonia/lib/libcamera.so:obj/lib/libcamera.so 
+
 # LIBS
+#PRODUCT_COPY_FILES += \
+	#vendor/motorola/begonia/lib/libcamera.so:system/lib/libcamera.so \
+	#vendor/motorola/begonia/lib/libcamera.so:system/lib/libmotocamera.so 
 PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/lib/libcamera.so:system/lib/libcamera.so \
-	vendor/motorola/begonia/lib/libcamera.so:obj/lib/libcamera.so \
-	vendor/motorola/begonia/lib/libaudio.so:obj/lib/libaudio.so \
 	vendor/motorola/begonia/lib/libaudio.so:system/lib/libaudio.so \
 	vendor/motorola/begonia/lib/libarcsoft.so:system/lib/libarcsoft.so \
 	vendor/motorola/begonia/lib/libcaps.so:system/lib/libcaps.so \
@@ -157,12 +163,12 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/bin/bplogd_daemon:system/bin/bplogd_daemon \
 	vendor/motorola/begonia/bin/akmd2:system/bin/akmd2 \
 	vendor/motorola/begonia/bin/rild_tcmd:system/bin/rild_tcmd \
-	vendor/motorola/begonia/bin/mot_boot_mode:system/bin/mot_boot_mode \
 	vendor/motorola/begonia/bin/usbd:system/bin/usbd \
 	vendor/motorola/begonia/bin/location:system/bin/location \
-	vendor/motorola/begonia/bin/charge_only_mode:system/bin/charge_only_mode \
 	vendor/motorola/begonia/bin/panic_daemon:system/bin/panic_daemon \
 	vendor/motorola/begonia/xbin/ssmgrd:system/xbin/ssmgrd
+	#vendor/motorola/begonia/bin/mot_boot_mode:system/bin/mot_boot_mode \
+	#vendor/motorola/begonia/bin/charge_only_mode:system/bin/charge_only_mode \
 
 #app
 PRODUCT_COPY_FILES += \
