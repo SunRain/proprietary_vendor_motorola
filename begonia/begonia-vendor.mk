@@ -83,9 +83,9 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
 	vendor/motorola/begonia/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
 	vendor/motorola/begonia/lib/liboemcamera.so:system/lib/liboemcamera.so \
-	vendor/motorola/begonia/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so \
-	vendor/motorola/begonia/lib/libskia.so:system/lib/libskia.so \
-	vendor/motorola/begonia/lib/libOMX.TI.JPEG.Encoder.so:system/lib/libOMX.TI.JPEG.Encoder.so
+	vendor/motorola/begonia/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so 
+	#vendor/motorola/begonia/lib/libskia.so:system/lib/libskia.so 
+	#vendor/motorola/begonia/lib/libOMX.TI.JPEG.Encoder.so:system/lib/libOMX.TI.JPEG.Encoder.so
 
 #etc
 PRODUCT_COPY_FILES += \
