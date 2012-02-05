@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map>
+<int name='MmsSubjectSizeLimit' value='80'/>
+<int name='MmsMaxVideoRecordingSeconds' value='60'/>
+<boolean name='MmsDefaultRetryEnabled' value='true'/>
+<boolean name='GroupRequiresMmsByDefault' value='false'/>
+<boolean name='RoamingAutoRetrievePreferenceEnabled' value='true'/>
+<int name='MmsRetryTimeout1' value='30000'/>
+<int name='MmsRetryTimeout2' value='180000'/>
+<int name='MmsRetryTimeout3' value='300000'/>
+<int name='MmsRetryTimeout4' value='480000'/>
+<int name='MmsConnectionTimeout' value='30000'/>
+<int name='MsmTransferTimeoutForVoiceCall' value='55000'/>
+<int name='MmsTransferTimeout' value='240000'/>
+<int name='MmsMaxPictureSizeForRetry' value='512000'/>
+<int name='MmsAbortProgressLimit' value='90'/>
+<int name='MmsNoResponseTimeout' value='120000'/>
+<boolean name='DeliveryReportEnable' value='true'/>
+<boolean name='MaxNumRecipientsEnable' value='true'/>
+<boolean name='CallbackNumEnable' value='true'/>
+<boolean name='WapRejectEnable' value='true'/>
+<boolean name='SignatureEnable' value='true'/>
+<boolean name='PriorityEnable' value='true'/>
+<boolean name='ManualRetryEnable' value='true'/>
+<boolean name='TransIdEnable' value='true'/>
+<boolean name='NotifyWapMmscEnable' value='true'/>
+<boolean name='MTMemoryLowEnable' value='true'/>
+<boolean name='MOMemoryLowEnable' value='true'/>
+<boolean name='ErrorCodesEnable' value='true'/>
+<boolean name='MsgDetailsEnable' value='true'/>
+<int name='MaxImageWidth' value='3264'/>
+<int name='MaxImageHeight' value='2448'/>
+<int name='MaxNumRecipients' value='20'/>
+<int name='SmsCharsRemainTilCounter' value='159'/>
+<string name='AcceptCharset'>US-ASCII, ISO-8859-1, UTF-8</string>
+<string name='HttpParameters'>x-up-calling-line-id: ##LINE1##|x-vzw-mdn: ##LINE1##</string>
+<string name='UaprofTagName'>profile</string>
+<int name='DefaultEncodingMethod' value='0'/><boolean name='ShowEncodingOptions' value='true'/></map>

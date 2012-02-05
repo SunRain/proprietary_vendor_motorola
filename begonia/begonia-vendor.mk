@@ -16,13 +16,15 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
 	vendor/motorola/begonia/lib/libaudio.so:obj/lib/libaudio.so \
-	vendor/motorola/begonia/lib/libcamera.so:obj/lib/libcamera.so 
+	vendor/motorola/begonia/lib/libcamera.so:obj/lib/libcamera.so \
+	vendor/motorola/begonia/lib/libgps.so:obj/lib/libgps.so
 
 # LIBS
 #PRODUCT_COPY_FILES += \
 	#vendor/motorola/begonia/lib/libcamera.so:system/lib/libcamera.so \
 	#vendor/motorola/begonia/lib/libcamera.so:system/lib/libmotocamera.so 
 PRODUCT_COPY_FILES += \
+	vendor/motorola/begonia/lib/libgps.so:system/lib/libgps.so \
 	vendor/motorola/begonia/lib/libcamera.so:system/lib/libcamera.so \
 	vendor/motorola/begonia/lib/libaudio.so:system/lib/libaudio.so \
 	vendor/motorola/begonia/lib/libarcsoft.so:system/lib/libarcsoft.so \
@@ -52,7 +54,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/lib/librilswitch.so:system/lib/librilswitch.so \
 	vendor/motorola/begonia/lib/libsmapi.so:system/lib/libsmapi.so \
 	vendor/motorola/begonia/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
-	vendor/motorola/begonia/lib/hw/gps.begonia.so:system/lib/hw/gps.begonia.so \
 	vendor/motorola/begonia/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
 	vendor/motorola/begonia/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
 	vendor/motorola/begonia/lib/dsp/h264vdec_sn.dll64P:system/lib/dsp/h264vdec_sn.dll64P \
@@ -86,6 +87,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so 
 	#vendor/motorola/begonia/lib/libskia.so:system/lib/libskia.so 
 	#vendor/motorola/begonia/lib/libOMX.TI.JPEG.Encoder.so:system/lib/libOMX.TI.JPEG.Encoder.so
+	#vendor/motorola/begonia/lib/hw/gps.begonia.so:system/lib/hw/gps.begonia.so 
 
 # add 720P camcorder source file
 PRODUCT_COPY_FILES += \
@@ -113,6 +115,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
 	vendor/motorola/begonia/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
 	vendor/motorola/begonia/etc/gpsconfig.xml:system/etc/gpsconfig.xml \
+	vendor/motorola/begonia/etc/btpan.conf:system/etc/btpan.conf \
 	vendor/motorola/begonia/etc/location.cfg:system/etc/location.cfg \
 	vendor/motorola/begonia/etc/fmc_init_1273.2.bts:system/etc/fmc_init_1273.2.bts \
 	vendor/motorola/begonia/etc/fmc_init_6450.2.bts:system/etc/fmc_init_6450.2.bts \
@@ -175,11 +178,18 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/bin/brcm_guci_drv:system/bin/brcm_guci_drv \
 	vendor/motorola/begonia/bin/bplogd_daemon:system/bin/bplogd_daemon \
 	vendor/motorola/begonia/bin/akmd2:system/bin/akmd2 \
+	vendor/motorola/begonia/bin/tcmd:system/bin/tcmd \
+	vendor/motorola/begonia/bin/tcmdhelp:system/bin/tcmdhelp \
+	vendor/motorola/begonia/bin/modemlog:system/bin/modemlog \
+	vendor/motorola/begonia/bin/vpnclientpm:system/bin/vpnclientpm \
+	vendor/motorola/begonia/bin/RescueStarter:system/bin/RescueStarter \
+	vendor/motorola/begonia/bin/RescueServer:system/bin/RescueServer \
 	vendor/motorola/begonia/bin/rild_tcmd:system/bin/rild_tcmd \
 	vendor/motorola/begonia/bin/usbd:system/bin/usbd \
 	vendor/motorola/begonia/bin/location:system/bin/location \
 	vendor/motorola/begonia/bin/panic_daemon:system/bin/panic_daemon \
-	vendor/motorola/begonia/xbin/ssmgrd:system/xbin/ssmgrd
+	vendor/motorola/begonia/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
+	vendor/motorola/begonia/bin/ssmgrd:system/bin/ssmgrd 
 	#vendor/motorola/begonia/bin/mot_boot_mode:system/bin/mot_boot_mode \
 	#vendor/motorola/begonia/bin/charge_only_mode:system/bin/charge_only_mode \
 

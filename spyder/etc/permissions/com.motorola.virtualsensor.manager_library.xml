@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- Provides client access (AIDL/RPC) to the VSM Service -->
+    <library name="com.motorola.virtualsensor.manager_library"
+             file="/system/framework/com.motorola.virtualsensor.manager_library.jar"/>
+</permissions>

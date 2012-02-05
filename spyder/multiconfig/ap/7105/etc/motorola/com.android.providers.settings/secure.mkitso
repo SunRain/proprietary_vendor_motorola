@@ -1,0 +1,10 @@
+install_non_market_apps=0
+preferred_tty_mode=0
+data_roaming=0
+default_input_method=com.android.inputmethod.latin/.LatinIME
+mobile_data=0
+background_data=1
+wifi_on=0
+location_providers_allowed=
+usb_mass_storage_enabled=1
+bluetooth_on=0

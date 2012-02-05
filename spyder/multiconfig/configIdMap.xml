@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configid_map>
+  <config id="1" mcc="202" mnc="1" name="Greece Cosmote" spn=""/>
+  <config id="2" mcc="202" mnc="5" name="Greece Vodafone" spn=""/>
+  <config id="3" mcc="202" mnc="9" name="Greece Wind" spn=""/>
+  <config id="3" mcc="202" mnc="10" name="Greece Wind" spn=""/>
+  <config id="5" mcc="204" mnc="4" name="Netherlands Vodafone" spn=""/>
+  <config id="6" mcc="204" mnc="8" name="Netherlands KPN" spn=""/>
+  <config id="7" mcc="204" mnc="12" name="Netherlands Telfort" spn=""/>
+  <config id="8" mcc="204" mnc="16" name="Netherlands T-Mobile" spn=""/>
+  <config id="9" mcc="204" mnc="20" name="Netherlands Orange" spn=""/>
+  <config id="10" mcc="206" mnc="1" name="Belgium BEL PROXIMUS" spn=""/>
+  <config id="11" mcc="206" mnc="5" name="Belgium Telenet" spn="Telenet"/>
+  <config id="12" mcc="206" mnc="10" name="Belgium Mobistar" spn=""/>
+  <config id="13" mcc="206" mnc="20" name="Belgium BASE" spn=""/>
+  <config id="14" mcc="208" mnc="1" name="France Carrefour" spn="Carrefour Mobile"/>
+  <config id="15" mcc="208" mnc="1" name="France Orange" spn="Orange F"/>
+  <config id="16" mcc="208" mnc="10" name="France A Mobile" spn="A MOBILE"/>
+  <config id="17" mcc="208" mnc="10" name="France Coriolis" spn="Coriolis"/>
+  <config id="18" mcc="208" mnc="10" name="France Debitel" spn="Debitel"/>
+  <config id="19" mcc="208" mnc="10" name="France SFR" spn="F SFR"/>
+  <config id="20" mcc="208" mnc="10" name="France La Poste" spn="La Poste Mobile"/>
+  <config id="21" mcc="208" mnc="10" name="France MOBISUD" spn="MOBISUD"/>
+  <config id="22" mcc="208" mnc="10" name="France simplicime" spn="simplicime"/>
+  <config id="23" mcc="208" mnc="20" name="France BOUYGTEL" spn="BOUYGTEL"/>
+  <config id="24" mcc="208" mnc="20" name="France UNIVERSAL" spn="UNIVERSAL"/>
+  <config id="25" mcc="214" mnc="1" name="Spain Vodafone" spn="Vodafone ES"/>
+  <config id="26" mcc="214" mnc="3" name="Spain Carrefour" spn="Carrefour"/>
+  <config id="27" mcc="214" mnc="3" name="Spain Orange" spn="Orange"/>
+  <config id="28" mcc="214" mnc="4" name="Spain Yoigo" spn="Yoigo"/>
+  <config id="29" mcc="214" mnc="5" name="Spain Tuenti" spn="Tuenti"/>
+  <config id="30" mcc="214" mnc="6" name="Spain Eroski Movil" spn="Eroski Movil"/>
+  <config id="31" mcc="214" mnc="6" name="Spain EUSKALTEL" spn="EUSKALTEL"/>
+  <config id="32" mcc="214" mnc="6" name="Spain mobil R" spn="mobil R"/>
+  <config id="33" mcc="214" mnc="7" name="Spain movistar" spn="movistar"/>
+  <config id="31" mcc="214" mnc="8" name="Spain EUSKALTEL" spn="EUSKALTEL"/>
+  <config id="35" mcc="214" mnc="15" name="Spain BT" spn="BT"/>
+  <config id="36" mcc="214" mnc="16" name="Spain TeleCable" spn="TeleCable"/>
+  <config id="37" mcc="214" mnc="18" name="Spain ONO" spn="ONO"/>
+  <config id="38" mcc="214" mnc="19" name="Spain blau" spn="blau"/>
+  <config id="39" mcc="216" mnc="1" name="Hungary Telenor" spn=""/>
+  <config id="40" mcc="216" mnc="30" name="Hungary T-Mobile" spn=""/>
+  <config id="41" mcc="216" mnc="70" name="Hungary Vodafone" spn="60"/>
+  <config id="42" mcc="218" mnc="3" name="Bosnia Herzegovina Eronet" spn=""/>
+  <config id="43" mcc="218" mnc="5" name="Bosnia Herzegovina mtel" spn=""/>
+  <config id="44" mcc="219" mnc="1" name="Croatia bonbon" spn="bonbon"/>
+  <config id="45" mcc="219" mnc="1" name="Croatia T-Mobile" spn=""/>
+  <config id="46" mcc="219" mnc="2" name="Croatia TELE" spn=""/>
+  <config id="47" mcc="219" mnc="10" name="Croatia VIP" spn=""/>
+  <config id="48" mcc="220" mnc="1" name="Serbia Telenor" spn=""/>
+  <config id="49" mcc="220" mnc="4" name="Serbia T-Mobile" spn=""/>
+  <config id="50" mcc="220" mnc="5" name="Serbia VIP" spn=""/>
+  <config id="51" mcc="222" mnc="1" name="Italy TIM" spn="I TIM"/>
+  <config id="52" mcc="222" mnc="1" name="Italy Noverca" spn="Noverca"/>
+  <config id="53" mcc="222" mnc="10" name="Italy PosteMobile" spn="PosteMobile"/>
+  <config id="54" mcc="222" mnc="10" name="Italy Vodafone" spn="Vodafone"/>
+  <config id="55" mcc="222" mnc="88" name="Italy WIND" spn="I WIND"/>
+  <config id="56" mcc="222" mnc="99" name="Italy 3 ITA" spn="3 ITA"/>
+  <config id="57" mcc="222" mnc="99" name="Italy FASTWEB" spn="FASTWEB"/>
+  <config id="58" mcc="226" mnc="1" name="Romania Vodafone" spn=""/>
+  <config id="59" mcc="226" mnc="3" name="Romania COSMOTE" spn=""/>
+  <config id="60" mcc="226" mnc="10" name="Romania Orange" spn=""/>
+  <config id="61" mcc="228" mnc="1" name="Switzerland Swisscom" spn="Swisscom"/>
+  <config id="62" mcc="228" mnc="2" name="Switzerland Sunrise" spn="Sunrise"/>
+  <config id="63" mcc="228" mnc="3" name="Switzerland Orange" spn="Orange"/>
+  <config id="64" mcc="230" mnc="1" name="Czech Republic T-Mobile" spn=""/>
+  <config id="65" mcc="230" mnc="2" name="Czech Republic O2" spn=""/>
+  <config id="66" mcc="230" mnc="3" name="Czech Republic Vodafone" spn=""/>
+  <config id="67" mcc="231" mnc="1" name="Slovakia Orange" spn="Orange SK"/>
+  <config id="68" mcc="231" mnc="2" name="Slovakia T-Mobile" spn=""/>
+  <config id="69" mcc="231" mnc="6" name="Slovakia O2" spn=""/>
+  <config id="70" mcc="232" mnc="1" name="Austria A1" spn="A1"/>
+  <config id="71" mcc="232" mnc="3" name="Austria T-Mobile" spn="T-mobile A"/>
+  <config id="72" mcc="232" mnc="5" name="Austria Orange" spn="Orange"/>
+  <config id="73" mcc="232" mnc="7" name="Austria tele.ring" spn=""/>
+  <config id="74" mcc="232" mnc="10" name="Austria 3" spn=""/>
+  <config id="75" mcc="232" mnc="11" name="Austria bob" spn=""/>
+  <config id="76" mcc="234" mnc="10" name="UK TESCO" spn="TESCO"/>
+  <config id="77" mcc="234" mnc="10" name="UK O2" spn=""/>
+  <config id="78" mcc="234" mnc="15" name="UK ASDA Mobile" spn="ASDA Mobile"/>
+  <config id="79" mcc="234" mnc="15" name="UK BT" spn="BT"/>
+  <config id="80" mcc="234" mnc="15" name="UK Talkmobile" spn="Talkmobile"/>
+  <config id="81" mcc="234" mnc="15" name="UK Vodafone" spn=""/>
+  <config id="82" mcc="234" mnc="20" name="UK 3" spn=""/>
+  <config id="83" mcc="234" mnc="30" name="UK T-Mobile" spn="T-Mobile"/>
+  <config id="84" mcc="234" mnc="30" name="UK virgin" spn="virgin"/>
+  <config id="85" mcc="234" mnc="33" name="UK Orange" spn=""/>
+  <config id="86" mcc="238" mnc="1" name="Denmark TDC" spn=""/>
+  <config id="87" mcc="238" mnc="2" name="Denmark Sonofon" spn=""/>
+  <config id="88" mcc="238" mnc="6" name="Denmark 3" spn=""/>
+  <config id="89" mcc="238" mnc="20" name="Denmark Telia" spn=""/>
+  <config id="90" mcc="240" mnc="1" name="Sweden Telia" spn=""/>
+  <config id="91" mcc="240" mnc="2" name="Sweden 3" spn=""/>
+  <config id="92" mcc="240" mnc="7" name="Sweden Tele2" spn=""/>
+  <config id="93" mcc="240" mnc="8" name="Sweden Telenor" spn=""/>
+  <config id="94" mcc="242" mnc="1" name="Norway Telenor" spn=""/>
+  <config id="95" mcc="242" mnc="2" name="Norway NetCom" spn=""/>
+  <config id="96" mcc="244" mnc="3" name="Finland DNA" spn=""/>
+  <config id="97" mcc="244" mnc="4" name="Finland DNA 1" spn=""/>
+  <config id="98" mcc="244" mnc="5" name="Finland Elisa" spn=""/>
+  <config id="99" mcc="244" mnc="12" name="Finland DNA 2" spn=""/>
+  <config id="100" mcc="244" mnc="13" name="Finland DNA 3" spn=""/>
+  <config id="101" mcc="244" mnc="21" name="Finland Saunalahti" spn=""/>
+  <config id="102" mcc="244" mnc="91" name="Finland TeliaSonera" spn=""/>
+  <config id="103" mcc="250" mnc="1" name="Russia MTS RUS" spn="MTS RUS"/>
+  <config id="104" mcc="250" mnc="2" name="Russia MegaFon RUS" spn="MegaFon RUS"/>
+  <config id="105" mcc="250" mnc="99" name="Russia Beeline" spn="Beeline"/>
+  <config id="106" mcc="255" mnc="1" name="Ukraine MTS" spn="MTS UKR"/>
+  <config id="107" mcc="255" mnc="2" name="Ukraine Beeline" spn="Beeline UA"/>
+  <config id="108" mcc="255" mnc="3" name="Ukraine KYIVSTAR" spn="UA-KYIVSTAR"/>
+  <config id="109" mcc="255" mnc="6" name="Ukraine life:)" spn="life:)"/>
+  <config id="110" mcc="260" mnc="1" name="Poland Plus" spn=""/>
+  <config id="111" mcc="260" mnc="2" name="Poland T-Mobile" spn=""/>
+  <config id="112" mcc="260" mnc="3" name="Poland Orange" spn="Orange"/>
+  <config id="113" mcc="260" mnc="6" name="Poland PLAY" spn="PLAY"/>
+  <config id="114" mcc="262" mnc="1" name="Germany T-Mobile" spn=""/>
+  <config id="115" mcc="262" mnc="2" name="Germany Vodafone" spn=""/>
+  <config id="116" mcc="262" mnc="3" name="Germany E-Plus" spn=""/>
+  <config id="117" mcc="262" mnc="7" name="Germany Alice" spn="Alice"/>
+  <config id="118" mcc="262" mnc="7" name="Germany FONIC" spn="FONIC"/>
+  <config id="119" mcc="262" mnc="7" name="Germany Tchibo" spn="Tchibo"/>
+  <config id="120" mcc="262" mnc="7" name="Germany O2" spn=""/>
+  <config id="121" mcc="268" mnc="1" name="Portugal Vodafone" spn=""/>
+  <config id="122" mcc="268" mnc="3" name="Portugal OPTIMUS" spn=""/>
+  <config id="123" mcc="268" mnc="6" name="Portugal TMN" spn=""/>
+  <config id="124" mcc="270" mnc="1" name="Luxembourg LUXGSM" spn=""/>
+  <config id="125" mcc="270" mnc="77" name="Luxembourg TANGO" spn=""/>
+  <config id="126" mcc="270" mnc="99" name="Luxembourg Orange" spn=""/>
+  <config id="127" mcc="272" mnc="5" name="Ireland 3" spn=""/>
+  <config id="128" mcc="272" mnc="3" name="Ireland Meteor" spn=""/>
+  <config id="129" mcc="272" mnc="2" name="Ireland O2" spn=""/>
+  <config id="130" mcc="272" mnc="1" name="Ireland Vodafone" spn=""/>
+  <config id="131" mcc="278" mnc="1" name="Malta Vodafone" spn=""/>
+  <config id="132" mcc="284" mnc="1" name="Bulgaria M-TEL" spn=" "/>
+  <config id="133" mcc="284" mnc="3" name="Bulgaria VIVACOM" spn=""/>
+  <config id="134" mcc="284" mnc="5" name="Bulgaria GLOBUL" spn=""/>
+  <config id="135" mcc="286" mnc="1" name="Turkey TURKCELL" spn=""/>
+  <config id="136" mcc="286" mnc="2" name="Turkey Vodafone" spn=""/>
+  <config id="137" mcc="286" mnc="3" name="Turkey AVEA" spn="AVEA"/>
+  <config id="138" mcc="293" mnc="40" name="Slovenia Si.mobile" spn=""/>
+  <config id="139" mcc="293" mnc="41" name="Slovenia Mobitel" spn=""/>
+  <config id="140" mcc="293" mnc="70" name="Slovenia TUSMOBIL" spn=""/>
+  <config id="141" mcc="294" mnc="1" name="Macedonia T-Mobile" spn=""/>
+  <config id="142" mcc="294" mnc="2" name="Macedonia ONE" spn=""/>
+  <config id="143" mcc="294" mnc="3" name="Macedonia VIP MK" spn=""/>
+  <config id="144" mcc="370" mnc="1" name="Dominican Republic Orange" spn=""/>
+  <config id="146" mcc="404" mnc="2" name="India Airtel GPRS (40402)" spn=""/>
+  <config id="146" mcc="404" mnc="3" name="India Airtel GPRS (40403)" spn=""/>
+  <config id="146" mcc="404" mnc="10" name="India Airtel GPRS (40410)" spn=""/>
+  <config id="146" mcc="404" mnc="31" name="India Airtel GPRS (40431)" spn=""/>
+  <config id="146" mcc="404" mnc="40" name="India Airtel GPRS (40440)" spn=""/>
+  <config id="146" mcc="404" mnc="45" name="India Airtel GPRS (40445)" spn=""/>
+  <config id="146" mcc="404" mnc="49" name="India Airtel GPRS (40449)" spn=""/>
+  <config id="146" mcc="404" mnc="70" name="India Airtel GPRS (40470)" spn=""/>
+  <config id="146" mcc="404" mnc="90" name="India Airtel GPRS (40490)" spn=""/>
+  <config id="146" mcc="404" mnc="92" name="India Airtel GPRS (40492)" spn=""/>
+  <config id="146" mcc="404" mnc="93" name="India Airtel GPRS (40493)" spn=""/>
+  <config id="146" mcc="404" mnc="94" name="India Airtel GPRS (40494)" spn=""/>
+  <config id="146" mcc="404" mnc="95" name="India Airtel GPRS (40495)" spn=""/>
+  <config id="146" mcc="404" mnc="96" name="India Airtel GPRS (40496)" spn=""/>
+  <config id="146" mcc="404" mnc="97" name="India Airtel GPRS (40497)" spn=""/>
+  <config id="146" mcc="404" mnc="98" name="India Airtel GPRS (40498)" spn=""/>
+  <config id="146" mcc="405" mnc="51" name="India Airtel GPRS (40551)" spn=""/>
+  <config id="146" mcc="405" mnc="52" name="India Airtel GPRS (40552)" spn=""/>
+  <config id="146" mcc="405" mnc="53" name="India Airtel GPRS (40553)" spn=""/>
+  <config id="146" mcc="405" mnc="54" name="India Airtel GPRS (40554)" spn=""/>
+  <config id="146" mcc="405" mnc="55" name="India Airtel GPRS (40555)" spn=""/>
+  <config id="146" mcc="405" mnc="56" name="India Airtel GPRS (40556)" spn=""/>
+  <config id="147" mcc="404" mnc="4" name="India IDEA GPRS (40404)" spn=""/>
+  <config id="147" mcc="404" mnc="7" name="India IDEA GPRS (40407)" spn=""/>
+  <config id="147" mcc="404" mnc="12" name="India IDEA GPRS (40412)" spn=""/>
+  <config id="147" mcc="404" mnc="19" name="India IDEA GPRS (40419)" spn=""/>
+  <config id="147" mcc="404" mnc="22" name="India IDEA GPRS (40422)" spn=""/>
+  <config id="147" mcc="404" mnc="24" name="India IDEA GPRS (40424)" spn=""/>
+  <config id="147" mcc="404" mnc="56" name="India IDEA GPRS (40456)" spn=""/>
+  <config id="147" mcc="404" mnc="78" name="India IDEA GPRS (40478)" spn=""/>
+  <config id="147" mcc="404" mnc="82" name="India IDEA GPRS (40482)" spn=""/>
+  <config id="147" mcc="404" mnc="87" name="India IDEA GPRS (40487)" spn=""/>
+  <config id="147" mcc="404" mnc="89" name="India IDEA GPRS (40489)" spn=""/>
+  <config id="147" mcc="405" mnc="70" name="India IDEA GPRS (40570)" spn=""/>
+  <config id="147" mcc="405" mnc="799" name="India IDEA GPRS (405799)" spn=""/>
+  <config id="147" mcc="405" mnc="850" name="India IDEA GPRS (405850)" spn=""/>
+  <config id="147" mcc="405" mnc="852" name="India IDEA GPRS (405852)" spn=""/>
+  <config id="148" mcc="405" mnc="25" name="India TATA DOCOMO INTERNET (40525)" spn=""/>
+  <config id="148" mcc="405" mnc="27" name="India TATA DOCOMO INTERNET (40527)" spn=""/>
+  <config id="148" mcc="405" mnc="29" name="India TATA DOCOMO INTERNET (40529)" spn=""/>
+  <config id="148" mcc="405" mnc="30" name="India TATA DOCOMO INTERNET (40530)" spn=""/>
+  <config id="148" mcc="405" mnc="31" name="India TATA DOCOMO INTERNET (40531)" spn=""/>
+  <config id="148" mcc="405" mnc="32" name="India TATA DOCOMO INTERNET (40532)" spn=""/>
+  <config id="148" mcc="405" mnc="34" name="India TATA DOCOMO INTERNET (40534)" spn=""/>
+  <config id="148" mcc="405" mnc="35" name="India TATA DOCOMO INTERNET (40535)" spn=""/>
+  <config id="148" mcc="405" mnc="36" name="India TATA DOCOMO INTERNET (40536)" spn=""/>
+  <config id="148" mcc="405" mnc="37" name="India TATA DOCOMO INTERNET (40537)" spn=""/>
+  <config id="148" mcc="405" mnc="38" name="India TATA DOCOMO INTERNET (40538)" spn=""/>
+  <config id="148" mcc="405" mnc="39" name="India TATA DOCOMO INTERNET (40539)" spn=""/>
+  <config id="148" mcc="405" mnc="41" name="India TATA DOCOMO INTERNET (40541)" spn=""/>
+  <config id="148" mcc="405" mnc="42" name="India TATA DOCOMO INTERNET (40542)" spn=""/>
+  <config id="148" mcc="405" mnc="43" name="India TATA DOCOMO INTERNET (40543)" spn=""/>
+  <config id="148" mcc="405" mnc="44" name="India TATA DOCOMO INTERNET (40544)" spn=""/>
+  <config id="148" mcc="405" mnc="45" name="India TATA DOCOMO INTERNET (40545)" spn=""/>
+  <config id="148" mcc="405" mnc="46" name="India TATA DOCOMO INTERNET (40546)" spn=""/>
+  <config id="148" mcc="405" mnc="47" name="India TATA DOCOMO INTERNET (40547)" spn=""/>
+  <config id="149" mcc="404" mnc="1" name="India Vodafone IN (40401)" spn=""/>
+  <config id="149" mcc="404" mnc="5" name="India Vodafone IN (40405)" spn=""/>
+  <config id="149" mcc="404" mnc="11" name="India Vodafone IN (40411)" spn=""/>
+  <config id="149" mcc="404" mnc="13" name="India Vodafone IN (40413)" spn=""/>
+  <config id="149" mcc="404" mnc="15" name="India Vodafone IN (40415)" spn=""/>
+  <config id="149" mcc="404" mnc="20" name="India Vodafone IN (40420)" spn=""/>
+  <config id="149" mcc="404" mnc="27" name="India Vodafone IN (40427)" spn=""/>
+  <config id="149" mcc="404" mnc="30" name="India Vodafone IN (40430)" spn=""/>
+  <config id="149" mcc="404" mnc="43" name="India Vodafone IN (40443)" spn=""/>
+  <config id="149" mcc="404" mnc="46" name="India Vodafone IN (40446)" spn=""/>
+  <config id="149" mcc="404" mnc="60" name="India Vodafone IN (40460)" spn=""/>
+  <config id="149" mcc="404" mnc="84" name="India Vodafone IN (40484)" spn=""/>
+  <config id="149" mcc="404" mnc="86" name="India Vodafone IN (40486)" spn=""/>
+  <config id="149" mcc="404" mnc="88" name="India Vodafone IN (40488)" spn=""/>
+  <config id="149" mcc="405" mnc="66" name="India Vodafone IN (40566)" spn=""/>
+  <config id="149" mcc="405" mnc="67" name="India Vodafone IN (40567)" spn=""/>
+  <config id="149" mcc="405" mnc="750" name="India Vodafone IN (405750)" spn=""/>
+  <config id="149" mcc="405" mnc="751" name="India Vodafone IN (405751)" spn=""/>
+  <config id="149" mcc="405" mnc="752" name="India Vodafone IN (405752)" spn=""/>
+  <config id="149" mcc="405" mnc="753" name="India Vodafone IN (405753)" spn=""/>
+  <config id="149" mcc="405" mnc="754" name="India Vodafone IN (405754)" spn=""/>
+  <config id="149" mcc="405" mnc="755" name="India Vodafone IN (405755)" spn=""/>
+  <config id="149" mcc="405" mnc="756" name="India Vodafone IN (405756)" spn=""/>
+  <config id="214" mcc="410" mnc="1" name="Pakistan Mobilink" spn=""/>
+  <config id="215" mcc="410" mnc="3" name="Pakistan Ufone" spn=""/>
+  <config id="216" mcc="410" mnc="4" name="Pakistan Warid" spn=""/>
+  <config id="217" mcc="410" mnc="6" name="Pakistan Telenor" spn=""/>
+  <config id="218" mcc="415" mnc="1" name="Lebanon Alfa" spn=""/>
+  <config id="219" mcc="415" mnc="3" name="Lebanon MTC touch" spn=""/>
+  <config id="220" mcc="416" mnc="1" name="Jordan zain" spn=""/>
+  <config id="221" mcc="416" mnc="3" name="Jordan UMNIAH" spn=""/>
+  <config id="222" mcc="416" mnc="77" name="Jordan Orange" spn=""/>
+  <config id="223" mcc="419" mnc="2" name="Kuwait Zain" spn=""/>
+  <config id="224" mcc="419" mnc="3" name="Kuwait WATANIYA" spn=""/>
+  <config id="225" mcc="419" mnc="4" name="Kuwait VIVACOM" spn=""/>
+  <config id="226" mcc="420" mnc="1" name="Saudi Arabia STC" spn=""/>
+  <config id="227" mcc="420" mnc="3" name="Saudi Arabia mobily-KSA" spn=""/>
+  <config id="228" mcc="420" mnc="4" name="Saudi Arabia Zain" spn=""/>
+  <config id="229" mcc="421" mnc="1" name="Yemen Sabafon" spn=""/>
+  <config id="230" mcc="421" mnc="2" name="Yemen MTN" spn=""/>
+  <config id="231" mcc="422" mnc="2" name="Oman Mobile" spn=""/>
+  <config id="232" mcc="422" mnc="3" name="Oman Nawras" spn=""/>
+  <config id="233" mcc="424" mnc="2" name="UAE ETISALAT" spn=""/>
+  <config id="234" mcc="424" mnc="3" name="UAE du" spn=""/>
+  <config id="235" mcc="425" mnc="1" name="Israel Partner" spn=""/>
+  <config id="236" mcc="425" mnc="2" name="Israel Cellcomm" spn=""/>
+  <config id="237" mcc="425" mnc="3" name="Israel Pelephone" spn=""/>
+  <config id="238" mcc="425" mnc="5" name="Palestine Jawwal" spn=""/>
+  <config id="239" mcc="426" mnc="1" name="Bahrain Batelco" spn=""/>
+  <config id="240" mcc="426" mnc="2" name="Bahrain Zain" spn=""/>
+  <config id="241" mcc="426" mnc="4" name="Bahrain VIVA" spn=""/>
+  <config id="242" mcc="427" mnc="1" name="Qatar Qat-Qtel" spn=""/>
+  <config id="243" mcc="427" mnc="2" name="Qatar Vodafone" spn=""/>
+  <config id="245" mcc="452" mnc="1" name="Vietnam Mobi" spn=""/>
+  <config id="246" mcc="452" mnc="2" name="Vietnam Vina" spn=""/>
+  <config id="247" mcc="452" mnc="4" name="Vietnam Viettel" spn=""/>
+  <config id="248" mcc="452" mnc="5" name="Vietnam WVN" spn=""/>
+  <config id="249" mcc="452" mnc="7" name="Vietnam Beeline" spn=""/>
+  <config id="250" mcc="454" mnc="0" name="Hong Kong NWMOBILE" spn="NWMOBILE"/>
+  <config id="251" mcc="454" mnc="0" name="Hong Kong CSL" spn=""/>
+  <config id="252" mcc="454" mnc="3" name="Hong Kong 3" spn=""/>
+  <config id="253" mcc="454" mnc="4" name="Hong Kong 3 GPRS" spn=""/>
+  <config id="253" mcc="454" mnc="12" name="Hong Kong CMHK" spn=""/>
+  <config id="254" mcc="454" mnc="6" name="Hong Kong SMC" spn=""/>
+  <config id="256" mcc="454" mnc="16" name="Hong Kong PCCW" spn=""/>
+  <config id="257" mcc="455" mnc="0" name="Macau SmarToneMacau" spn=""/>
+  <config id="258" mcc="455" mnc="1" name="Macau CTM" spn=""/>
+  <config id="259" mcc="455" mnc="3" name="Macau 3" spn=""/>
+  <config id="259" mcc="455" mnc="5" name="Macau 3" spn=""/>
+  <config id="261" mcc="466" mnc="1" name="Taiwan Far Eas Tone" spn=""/>
+  <config id="262" mcc="466" mnc="89" name="Taiwan Vibo" spn=""/>
+  <config id="263" mcc="466" mnc="92" name="Taiwan Chunghwa Telecom" spn=""/>
+  <config id="264" mcc="466" mnc="93" name="Taiwan TWM internet (466.93)" spn=""/>
+  <config id="264" mcc="466" mnc="97" name="Taiwan TWM Internet (466.97)" spn=""/>
+  <config id="264" mcc="466" mnc="99" name="Taiwan TWM internet (466.99)" spn=""/>
+  <config id="267" mcc="470" mnc="1" name="Bangladesh GP" spn=""/>
+  <config id="268" mcc="502" mnc="12" name="Malaysia Maxis" spn=""/>
+  <config id="269" mcc="502" mnc="16" name="Malaysia DiGi" spn=""/>
+  <config id="270" mcc="502" mnc="18" name="Malaysia umobile" spn=""/>
+  <config id="271" mcc="502" mnc="19" name="Malaysia Celcom" spn=""/>
+  <config id="272" mcc="505" mnc="1" name="Australia Telstra" spn=""/>
+  <config id="273" mcc="505" mnc="2" name="Australia Virgin Mobile" spn="Virgin Mobile"/>
+  <config id="274" mcc="505" mnc="2" name="Australia Optus" spn=""/>
+  <config id="275" mcc="505" mnc="3" name="Australia Vodafone" spn=""/>
+  <config id="276" mcc="505" mnc="6" name="Australia 3" spn=""/>
+  <config id="277" mcc="510" mnc="1" name="Indonesia Indosat 510.01" spn=""/>
+  <config id="277" mcc="510" mnc="21" name="Indonesia Indosat 510.21" spn=""/>
+  <config id="278" mcc="510" mnc="8" name="Indonesia AXIS" spn=""/>
+  <config id="279" mcc="510" mnc="10" name="Indonesia Telkomsel" spn=""/>
+  <config id="280" mcc="510" mnc="11" name="Indonesia XL" spn=""/>
+  <config id="282" mcc="510" mnc="89" name="Indonesia 3" spn=""/>
+  <config id="283" mcc="515" mnc="2" name="Philippines Globe" spn=""/>
+  <config id="284" mcc="515" mnc="3" name="Philippines SMART" spn=""/>
+  <config id="285" mcc="515" mnc="5" name="Philippines Sun" spn=""/>
+  <config id="286" mcc="520" mnc="1" name="Thailand AIS" spn=""/>
+  <config id="287" mcc="520" mnc="18" name="Thailand DTAC" spn=""/>
+  <config id="288" mcc="520" mnc="99" name="Thailand TRUE" spn=""/>
+  <config id="289" mcc="525" mnc="1" name="Singapore Singtel" spn=""/>
+  <config id="290" mcc="525" mnc="3" name="Singapore M1" spn=""/>
+  <config id="291" mcc="525" mnc="5" name="Singapore Starhub" spn=""/>
+  <config id="292" mcc="530" mnc="1" name="New Zealand VFNZ" spn=""/>
+  <config id="293" mcc="530" mnc="5" name="New Zealand Telecom" spn=""/>
+  <config id="294" mcc="602" mnc="1" name="Egypt MobiNiL" spn=""/>
+  <config id="295" mcc="602" mnc="2" name="Egypt Vodafone" spn=""/>
+  <config id="296" mcc="602" mnc="3" name="Egypt etisalat" spn=""/>
+  <config id="297" mcc="603" mnc="2" name="Algeria Djezzy" spn=""/>
+  <config id="298" mcc="603" mnc="3" name="Algeria Nedjma" spn=""/>
+  <config id="299" mcc="604" mnc="0" name="Morocco Meditel" spn=""/>
+  <config id="300" mcc="604" mnc="1" name="Morocco IAM" spn=""/>
+  <config id="301" mcc="605" mnc="1" name="Tunisia Orange" spn=""/>
+  <config id="302" mcc="605" mnc="2" name="Tunisia MobiNet" spn=""/>
+  <config id="305" mcc="606" mnc="0" name="Libya Libyana" spn=""/>
+  <config id="306" mcc="608" mnc="1" name="Senegal Orange" spn=""/>
+  <config id="307" mcc="610" mnc="2" name="Mali Orange" spn=""/>
+  <config id="308" mcc="612" mnc="3" name="Cote d'Ivory Orange" spn=""/>
+  <config id="309" mcc="617" mnc="1" name="Mauritius Orange" spn=""/>
+  <config id="310" mcc="621" mnc="20" name="Nigeria ZAIN" spn=""/>
+  <config id="311" mcc="621" mnc="30" name="Nigeria MTN" spn=""/>
+  <config id="312" mcc="621" mnc="50" name="Nigeria Glo" spn=""/>
+  <config id="313" mcc="621" mnc="60" name="Nigeria Etisalat" spn=""/>
+  <config id="314" mcc="624" mnc="2" name="Cameroon Orange" spn=""/>
+  <config id="315" mcc="627" mnc="1" name="Equatorial Guinea Orange" spn=""/>
+  <config id="316" mcc="630" mnc="1" name="Congo (Democratic Republic of) Vodacom" spn=""/>
+  <config id="317" mcc="639" mnc="2" name="Kenya  Safaricom" spn=""/>
+  <config id="318" mcc="646" mnc="2" name="Madagaskar Orange" spn=""/>
+  <config id="319" mcc="647" mnc="10" name="La Reunion SRR" spn="SRR"/>
+  <config id="320" mcc="652" mnc="2" name="Zimbabwe Orange" spn=""/>
+  <config id="321" mcc="655" mnc="1" name="South Africa Vlive!" spn=""/>
+  <config id="322" mcc="655" mnc="2" name="South Africa Telkom SA" spn=""/>
+  <config id="323" mcc="655" mnc="7" name="South Africa Cell C" spn=""/>
+  <config id="324" mcc="655" mnc="10" name="South Africa MTN" spn=""/>
+  <config id="336" mcc="310" mnc="0" name="USA NEP Wireless" spn=""/>
+  <config id="336" mcc="310" mnc="2" name="USA NEP Wireless" spn=""/>
+  <config id="336" mcc="310" mnc="9" name="USA NEP Wireless" spn=""/>
+  <config id="339" mcc="310" mnc="20" name="USA Union Telephone" spn=""/>
+  <config id="340" mcc="310" mnc="30" name="USA Centennial" spn=""/>
+  <config id="341" mcc="310" mnc="31" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="160" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="200" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="210" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="220" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="230" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="240" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="250" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="260" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="270" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="310" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="490" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="580" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="660" name="USA T-Mobile" spn=""/>
+  <config id="341" mcc="310" mnc="800" name="USA T-Mobile" spn=""/>
+  <config id="342" mcc="310" mnc="32" name="USA IT&amp;E" spn=""/>
+  <config id="343" mcc="310" mnc="40" name="USA Cellular One" spn=""/>
+  <config id="344" mcc="310" mnc="46" name="USA USA SIMMETRY" spn=""/>
+  <config id="345" mcc="310" mnc="70" name="USA Highland Cellular" spn=""/>
+  <config id="346" mcc="310" mnc="80" name="USA Corr Wireless" spn=""/>
+  <config id="347" mcc="310" mnc="100" name="USA Plateau Wireless" spn=""/>
+  <config id="348" mcc="310" mnc="140" name="USA USA Mpulse" spn=""/>
+  <config id="349" mcc="310" mnc="150" name="USA AT&amp;T" spn=""/>
+  <config id="349" mcc="310" mnc="170" name="USA AT&amp;T" spn=""/>
+  <config id="349" mcc="310" mnc="380" name="USA AT&amp;T" spn=""/>
+  <config id="349" mcc="310" mnc="410" name="USA AT&amp;T" spn=""/>
+  <config id="349" mcc="310" mnc="980" name="USA AT&amp;T" spn=""/>
+  <config id="349" mcc="311" mnc="180" name="USA AT&amp;T" spn=""/>
+  <config id="352" mcc="310" mnc="180" name="USA West Central" spn=""/>
+  <config id="353" mcc="310" mnc="190" name="USA Alaska Wireless" spn=""/>
+  <config id="362" mcc="310" mnc="300" name="USA BigSkyUS" spn=""/>
+  <config id="364" mcc="310" mnc="320" name="USA USA-CellularOne" spn=""/>
+  <config id="365" mcc="310" mnc="340" name="USA WestLink Comm" spn=""/>
+  <config id="366" mcc="310" mnc="350" name="USA Carolina Phone" spn=""/>
+  <config id="368" mcc="310" mnc="390" name="USA Yorkville" spn=""/>
+  <config id="369" mcc="310" mnc="400" name="USA iCAN_GSM" spn=""/>
+  <config id="371" mcc="310" mnc="420" name="USA CBW" spn=""/>
+  <config id="372" mcc="310" mnc="450" name="USA Viaero Wireless" spn=""/>
+  <config id="373" mcc="310" mnc="470" name="USA DOCOMOPA" spn=""/>
+  <config id="375" mcc="310" mnc="530" name="USA WVW" spn=""/>
+  <config id="376" mcc="310" mnc="560" name="USA Cellular One DCS" spn=""/>
+  <config id="377" mcc="310" mnc="570" name="USA Chinook" spn=""/>
+  <config id="379" mcc="310" mnc="590" name="USA ROAMING" spn=""/>
+  <config id="380" mcc="310" mnc="610" name="USA Epic Touch" spn=""/>
+  <config id="381" mcc="310" mnc="630" name="USA AmeriLink PCS" spn=""/>
+  <config id="382" mcc="310" mnc="640" name="USA Einstein PCS" spn=""/>
+  <config id="383" mcc="310" mnc="650" name="USA Jasper" spn=""/>
+  <config id="385" mcc="310" mnc="670" name="USA Wireless 2000 PCS" spn=""/>
+  <config id="386" mcc="310" mnc="680" name="USA NPI Wireless" spn=""/>
+  <config id="387" mcc="310" mnc="690" name="USA Immix Wireless" spn=""/>
+  <config id="388" mcc="310" mnc="710" name="USA USA ASTAC" spn=""/>
+  <config id="389" mcc="310" mnc="730" name="USA U.S.Cellular" spn=""/>
+  <config id="390" mcc="310" mnc="740" name="USA Telemetrix" spn=""/>
+  <config id="391" mcc="310" mnc="760" name="USA PTSI" spn=""/>
+  <config id="392" mcc="310" mnc="770" name="USA i wireless" spn=""/>
+  <config id="393" mcc="310" mnc="780" name="USA AirLink PCS" spn=""/>
+  <config id="394" mcc="310" mnc="790" name="USA Pinpoint" spn=""/>
+  <config id="396" mcc="310" mnc="840" name="USA telna Mobile" spn=""/>
+  <config id="397" mcc="310" mnc="870" name="USA US" spn=""/>
+  <config id="398" mcc="310" mnc="880" name="USA USAACSI" spn=""/>
+  <config id="399" mcc="310" mnc="890" name="USA USA Unicel" spn=""/>
+  <config id="400" mcc="310" mnc="950" name="USA USA XIT Wireless" spn=""/>
+  <config id="402" mcc="311" mnc="0" name="USA Wilkes USA" spn=""/>
+  <config id="402" mcc="311" mnc="1" name="USA Wilkes USA" spn=""/>
+  <config id="402" mcc="311" mnc="5" name="USA Wilkes USA" spn=""/>
+  <config id="405" mcc="311" mnc="30" name="USA Indigo" spn=""/>
+  <config id="406" mcc="311" mnc="40" name="USA USA-Commnet" spn=""/>
+  <config id="407" mcc="311" mnc="80" name="USA Pine Cellular" spn=""/>
+  <config id="408" mcc="311" mnc="90" name="USA USASXLP" spn=""/>
+  <config id="409" mcc="311" mnc="140" name="USA Sprocket" spn=""/>
+  <config id="410" mcc="311" mnc="170" name="USA PetroCom" spn=""/>
+  <config id="412" mcc="311" mnc="190" name="USA USAC1ECI" spn=""/>
+  <config id="413" mcc="311" mnc="240" name="USA USACWCI" spn=""/>
+  <config id="414" mcc="311" mnc="310" name="USA Lamar Cellular" spn=""/>
+  <config id="415" mcc="311" mnc="330" name="USA BTW" spn=""/>
+  <config id="416" mcc="311" mnc="360" name="USA Stelera Wireless" spn=""/>
+  <config id="417" mcc="311" mnc="370" name="USA GCI" spn=""/>
+  <config id="418" mcc="311" mnc="480" name="USA USA Verizon" spn=""/>
+  <config id="419" mcc="311" mnc="500" name="USA MOSAIC" spn=""/>
+  <config id="420" mcc="311" mnc="540" name="USA USA Proximiti" spn=""/>
+  <config id="420" mcc="311" mnc="730" name="USA USA Proximiti" spn=""/>
+  <config id="421" mcc="311" mnc="710" name="USA Northeast Wireless" spn=""/>
+  <config id="422" mcc="311" mnc="720" name="USA MainePCS" spn=""/>
+  <config id="424" mcc="330" mnc="110" name="Puerto Rico PR Claro" spn=""/>
+  <config id="425" mcc="334" mnc="3" name="Mexico movistar" spn=""/>
+  <config id="426" mcc="334" mnc="9" name="Mexico Nextel 3G" spn=""/>
+  <config id="427" mcc="334" mnc="20" name="Mexico Telcel GSM" spn=""/>
+  <config id="428" mcc="334" mnc="50" name="Mexico Iusacell NextG" spn=""/>
+  <config id="429" mcc="338" mnc="5" name="Turks and Caicos DIGICEL" spn=""/>
+  <config id="430" mcc="338" mnc="70" name="Jamaica ClaroJam" spn=""/>
+  <config id="431" mcc="338" mnc="180" name="Jamaica C&amp;W" spn=""/>
+  <config id="432" mcc="340" mnc="1" name="Guadeloupe F-Orange" spn=""/>
+  <config id="433" mcc="340" mnc="2" name="Guadeloupe ONLY" spn=""/>
+  <config id="434" mcc="340" mnc="3" name="Guadeloupe CHIPPIE" spn=""/>
+  <config id="435" mcc="340" mnc="8" name="Guadeloupe DAUPHIN" spn=""/>
+  <config id="436" mcc="340" mnc="20" name="Guadeloupe DIGICEL" spn=""/>
+  <config id="437" mcc="342" mnc="600" name="Barbados C&amp;W" spn=""/>
+  <config id="438" mcc="342" mnc="750" name="Barbados DIGICEL" spn=""/>
+  <config id="439" mcc="344" mnc="30" name="Antigua and Barbuda APUA-PCS" spn=""/>
+  <config id="440" mcc="344" mnc="920" name="Antigua and Barbuda C&amp;W" spn=""/>
+  <config id="441" mcc="344" mnc="930" name="Antigua and Barbuda Cingular" spn=""/>
+  <config id="442" mcc="346" mnc="140" name="Cayman Islands LIME" spn=""/>
+  <config id="443" mcc="348" mnc="170" name="British Virgin Islands C&amp;W" spn=""/>
+  <config id="444" mcc="348" mnc="570" name="British Virgin Islands CCT Boatphone" spn=""/>
+  <config id="445" mcc="350" mnc="0 " name="Bermuda CellularOne" spn=""/>
+  <config id="446" mcc="350" mnc="2 " name="Bermuda M3 WIRELESS" spn=""/>
+  <config id="447" mcc="350" mnc="10 " name="Bermuda Cingular" spn=""/>
+  <config id="448" mcc="352" mnc="30" name="Grenada DIGICEL" spn=""/>
+  <config id="449" mcc="352" mnc="110" name="Grenada C&amp;W" spn=""/>
+  <config id="450" mcc="356" mnc="110" name="Saint Kitts and Nevis LIME" spn=""/>
+  <config id="451" mcc="358" mnc="50 " name="Saint Lucia DIGICEL" spn=""/>
+  <config id="452" mcc="358" mnc="110 " name="Saint Lucia C&amp;W" spn=""/>
+  <config id="453" mcc="360" mnc="70 " name="Saint Vincent and the Grenadines DIGICEL" spn=""/>
+  <config id="454" mcc="360" mnc="110 " name="Saint Vincent and the Grenadines C&amp;W" spn=""/>
+  <config id="455" mcc="362" mnc="51" name="Netherlands Antilles Telcell GSM" spn=""/>
+  <config id="456" mcc="362" mnc="69" name="Netherlands Antilles CT GSM" spn=""/>
+  <config id="457" mcc="362" mnc="951" name="Netherlands Antilles ANT" spn=""/>
+  <config id="458" mcc="363" mnc="1" name="Aruba SETAR GSM" spn=""/>
+  <config id="459" mcc="363" mnc="20" name="Aruba DIGICEL" spn=""/>
+  <config id="460" mcc="364" mnc="39" name="Bahamas BaTelCell" spn=""/>
+  <config id="461" mcc="365" mnc="840" name="Anguilla C&amp;W" spn=""/>
+  <config id="462" mcc="366" mnc="20" name="Dominica Cingular" spn=""/>
+  <config id="463" mcc="366" mnc="110" name="Dominica C&amp;W" spn=""/>
+  <config id="465" mcc="370" mnc="2" name="Dominican Republic CLARO DOM" spn=""/>
+  <config id="466" mcc="376" mnc="350" name="Turks and Caicos C&amp;W" spn=""/>
+  <config id="467" mcc="376" mnc="360" name="Turks and Caicos IslandCom TCI" spn=""/>
+  <config id="468" mcc="440" mnc="0" name="Japan JPN EMOBILE" spn=""/>
+  <config id="469" mcc="440" mnc="10" name="Japan JP DOCOMO" spn=""/>
+  <config id="470" mcc="440" mnc="20" name="Japan SoftBank" spn=""/>
+  <config id="471" mcc="450" mnc="2" name="Korea KT" spn=""/>
+  <config id="471" mcc="450" mnc="8" name="Korea KT" spn=""/>
+  <config id="474" mcc="704" mnc="1" name="Guatemala CLARO GTM" spn=""/>
+  <config id="475" mcc="704" mnc="2 " name="Guatemala Tigo" spn=""/>
+  <config id="476" mcc="704" mnc="3" name="Guatemala movistar" spn=""/>
+  <config id="477" mcc="706" mnc="1" name="El Salvador CLARO SLV" spn=""/>
+  <config id="478" mcc="706" mnc="2" name="El Salvador Digicel" spn=""/>
+  <config id="479" mcc="706" mnc="3 " name="El Salvador Tigo" spn=""/>
+  <config id="480" mcc="706" mnc="4" name="El Salvador movistar" spn=""/>
+  <config id="481" mcc="706" mnc="10" name="El Salvador ESV PERSONAL" spn=""/>
+  <config id="482" mcc="708" mnc="1 " name="Honduras CLARO HND" spn=""/>
+  <config id="483" mcc="708" mnc="2 " name="Honduras Tigo" spn=""/>
+  <config id="484" mcc="708" mnc="30 " name="Honduras HND" spn=""/>
+  <config id="485" mcc="710" mnc="21 " name="Nicaragua CLARO NIC" spn=""/>
+  <config id="485" mcc="710" mnc="73 " name="Nicaragua CLARO NIC" spn=""/>
+  <config id="487" mcc="710" mnc="300 " name="Nicaragua MOVISTARNI" spn=""/>
+  <config id="488" mcc="712" mnc="0" name="Costa Rica I.C.E." spn=""/>
+  <config id="488" mcc="712" mnc="1" name="Costa Rica I.C.E." spn=""/>
+  <config id="488" mcc="712" mnc="2" name="Costa Rica I.C.E." spn=""/>
+  <config id="491" mcc="714" mnc="1 " name="Panama PANCW" spn=""/>
+  <config id="492" mcc="714" mnc="3 " name="Panama CLARO PA" spn=""/>
+  <config id="493" mcc="714" mnc="20 " name="Panama Movistar" spn=""/>
+  <config id="494" mcc="716" mnc="6" name="Peru MOVISTAR" spn=""/>
+  <config id="495" mcc="716" mnc="10" name="Peru CLARO PER" spn=""/>
+  <config id="496" mcc="716" mnc="17" name="Peru PERN3" spn=""/>
+  <config id="497" mcc="722" mnc="7 " name="Argentina Movistar" spn=""/>
+  <config id="498" mcc="722" mnc="34 " name="Argentina PERSONAL" spn=""/>
+  <config id="499" mcc="722" mnc="36 " name="Argentina AR PERSONAL" spn=""/>
+  <config id="500" mcc="722" mnc="310 " name="Argentina CLARO ARGENTINA" spn=""/>
+  <config id="501" mcc="724" mnc="2" name="Brazil TIM" spn=""/>
+  <config id="501" mcc="724" mnc="3" name="Brazil TIM" spn=""/>
+  <config id="501" mcc="724" mnc="4" name="Brazil TIM" spn=""/>
+  <config id="504" mcc="724" mnc="5" name="Brazil Claro" spn=""/>
+  <config id="505" mcc="724" mnc="6" name="Brazil VIVO" spn=""/>
+  <config id="505" mcc="724" mnc="10" name="Brazil VIVO" spn=""/>
+  <config id="505" mcc="724" mnc="11" name="Brazil VIVO" spn=""/>
+  <config id="505" mcc="724" mnc="23" name="Brazil VIVO" spn=""/>
+  <config id="508" mcc="724" mnc="15" name="Brazil BRA SCTL" spn=""/>
+  <config id="509" mcc="724" mnc="16" name="Brazil Oi" spn=""/>
+  <config id="509" mcc="724" mnc="31" name="Brazil Oi" spn=""/>
+  <config id="509" mcc="724" mnc="24" name="Brazil AMAZONIA" spn=""/>
+  <config id="513" mcc="724" mnc="32" name="Brazil CTBC" spn=""/>
+  <config id="513" mcc="724" mnc="33" name="Brazil CTBC" spn=""/>
+  <config id="513" mcc="724" mnc="34" name="Brazil CTBC" spn=""/>
+  <config id="516" mcc="730" mnc="1" name="Chile ENTEL PCS" spn=""/>
+  <config id="516" mcc="730" mnc="10" name="Chile ENTEL PCS" spn=""/>
+  <config id="517" mcc="730" mnc="2" name="Chile CHL Movistar" spn=""/>
+  <config id="518" mcc="730" mnc="3" name="Chile CLARO CHL" spn=""/>
+  <config id="519" mcc="730" mnc="9" name="Chile Nextel 3G" spn=""/>
+  <config id="517" mcc="730" mnc="730" name="Chile CHL Movistar" spn=""/>
+  <config id="522" mcc="732" mnc="101 " name="Colombia COMCEL" spn=""/>
+  <config id="523" mcc="732" mnc="103 " name="Colombia Tigo" spn=""/>
+  <config id="523" mcc="732" mnc="111 " name="Colombia Tigo" spn=""/>
+  <config id="525" mcc="732" mnc="123 " name="Colombia Movistar" spn=""/>
+  <config id="527" mcc="734" mnc="2" name="Venezuela DIGITEL" spn=""/>
+  <config id="527" mcc="734" mnc="1" name="Venezuela DIGITEL GSM" spn=""/>
+  <config id="527" mcc="734" mnc="3" name="Venezuela DIGITEL GSM" spn=""/>
+  <config id="529" mcc="734" mnc="4" name="Venezuela movistar" spn=""/>
+  <config id="530" mcc="734" mnc="6" name="Venezuela VE_MOVILNET" spn=""/>
+  <config id="531" mcc="736" mnc="1" name="Bolivia NUEVATEL" spn=""/>
+  <config id="532" mcc="736" mnc="2" name="Bolivia EMOVIL" spn=""/>
+  <config id="533" mcc="736" mnc="3" name="Bolivia Telecel_Bolivia_GSM" spn=""/>
+  <config id="534" mcc="738" mnc="1" name="Guyana DIGICEL" spn=""/>
+  <config id="535" mcc="738" mnc="2" name="Guyana GUY CLNK PLS" spn=""/>
+  <config id="536" mcc="740" mnc="0" name="Ecuador Movistar" spn=""/>
+  <config id="537" mcc="740" mnc="1" name="Ecuador PORTA GSM" spn=""/>
+  <config id="538" mcc="744" mnc="1" name="Paraguay HOLA PARAGUAY" spn=""/>
+  <config id="539" mcc="744" mnc="2" name="Paraguay CLARO PY" spn=""/>
+  <config id="540" mcc="744" mnc="4 " name="Paraguay Tigo" spn=""/>
+  <config id="541" mcc="744" mnc="5" name="Paraguay PY Personal" spn=""/>
+  <config id="542" mcc="746" mnc="2" name="Suriname SR.TELESUR.GSM" spn=""/>
+  <config id="543" mcc="746" mnc="3" name="Suriname DIGICEL" spn=""/>
+  <config id="544" mcc="746" mnc="4" name="Suriname UNIQA" spn=""/>
+  <config id="545" mcc="748" mnc="7" name="Uruguay Movistar" spn=""/>
+  <config id="546" mcc="748" mnc="10" name="Uruguay CLARO URUGUAY" spn=""/>
+  <config id="547" mcc="750" mnc="1" name="Barbados C&amp;W FLK" spn=""/>
+  <config id="548" mcc="460" mnc="0" name="China CMCC" spn=""/>
+  <config id="549" mcc="460" mnc="1" name="China CHN-UNICOM" spn=""/>
+  <config id="472" mcc="450" mnc="5" name="Korea SK Telecom" spn=""/>
+  <config id="550" mcc="440" mnc="7" name="Japan KDDI" spn=""/>
+  <config id="7101" mcc="999" mnc="999" name="Greece Retail" spn="Greece Retail"/>
+  <config id="7001" mcc="999" mnc="999" name="Retail_LATAM" spn="Retail_LATAM"/>
+  <config id="7104" mcc="999" mnc="999" name="France Retail" spn="France Retail"/>
+  <config id="7124" mcc="999" mnc="999" name="Germany Retail" spn="Germany Retail"/>
+  <config id="7116" mcc="999" mnc="999" name="UK Retail" spn="UK Retail"/>
+  <config id="7120" mcc="999" mnc="999" name="Finland Retail" spn="Finland Retail"/>
+  <config id="7110" mcc="999" mnc="999" name="Italy Retail" spn="Italy Retail"/>
+  <config id="7102" mcc="999" mnc="999" name="Netherlands Retail" spn="Netherlands Retail"/>
+  <config id="7103" mcc="999" mnc="999" name="Belgium Retail" spn="Belgium Retail"/>
+  <config id="7119" mcc="999" mnc="999" name="Norway Retail" spn="Norway Retail"/>
+  <config id="7123" mcc="999" mnc="999" name="Poland Retail" spn="Poland Retail"/>
+  <config id="7117" mcc="999" mnc="999" name="Denmark Retail" spn="Denmark Retail"/>
+  <config id="7126" mcc="999" mnc="999" name="Luxembourg Retail" spn="Luxembourg Retail"/>
+  <config id="7118" mcc="999" mnc="999" name="Sweden Retail" spn="Sweeden Retail"/>
+  <config id="7008" mcc="999" mnc="999" name="Retail_SEA" spn="Retail_SEA"/>
+  <config id="7002" mcc="999" mnc="999" name="Retail_LAS" spn="Retail_LAS"/>
+  <config id="7003" mcc="999" mnc="999" name="Retail_EMEA" spn="Retail_EMEA"/>
+  <config id="7004" mcc="999" mnc="999" name="Retail_MEA" spn="Retail_MEA"/>
+  <config id="7005" mcc="999" mnc="999" name="Retail_CEE" spn="Retail_CEE"/>
+  <config id="7006" mcc="999" mnc="999" name="Retail_DACH" spn="Retail_DACH"/>
+  <config id="7007" mcc="999" mnc="999" name="Retail_BeNeLux" spn="Retail_BeNeLux"/>
+  <config id="7009" mcc="999" mnc="999" name="Retail_SA" spn="Retail_SA"/>
+  <config id="551" mcc="712" mnc="3" name="Cost Rica Claro" spn=""/>
+  <config id="7210" mcc="999" mnc="999" name="Brazil Retail" spn=""/>
+  <config id="7154" mcc="999" mnc="999" name="Australia Retail" spn="Australia Retail"/>
+  <config id="7011" mcc="999" mnc="999" name="Retail_NA" spn="Retail NA"/>
+  <config id="7105" mcc="999" mnc="999" name="Spain Retail" spn="Spain Retail"/>
+  <config id="7149" mcc="999" mnc="999" name="Hong Kong Retail" spn="Hong Kong Retail"/>
+  <config id="7010" mcc="999" mnc="999" name="Retail_INTL" spn="Retail_INTL"/>
+  <config id="7143" mcc="999" mnc="999" name="Israel Retail" spn="Israel Retail"/>
+  <config id="7134" mcc="404" mnc="999" name="India Retail" spn=""/>
+  <config id="7139" mcc="420" mnc="999" name="Saudi Arabia Retail" spn=""/>
+  <config id="7142" mcc="424" mnc="999" name="UAE Retail" spn=""/>
+  <config id="7153" mcc="502" mnc="999" name="Malaysia Retail" spn=""/>
+  <config id="7155" mcc="510" mnc="999" name="Indonesia Retail" spn=""/>
+  <config id="7157" mcc="520" mnc="999" name="Thailand Retail" spn=""/>
+  <config id="7158" mcc="525" mnc="999" name="Singapore Retail" spn=""/>
+  <config id="7177" mcc="655" mnc="999" name="South Africa Retail" spn=""/>
+  <config id="7012" mcc="999" mnc="999" name="Retail Nordics" spn="Retail Nordics"/>
+</configid_map>

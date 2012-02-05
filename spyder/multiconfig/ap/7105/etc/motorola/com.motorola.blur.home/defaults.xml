@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map>
+<boolean name='load_from_string' value='true'/>
+<string name='desktop_items'>[
+   {
+      &quot;cellX&quot; : 1, 
+      &quot;cellY&quot; : 0, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.motorola.togglewidgets/.BluetoothToggle&quot;, 
+      &quot;screen&quot; : 0, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 3, 
+      &quot;cellY&quot; : 0, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.motorola.togglewidgets/.GpsToggle&quot;, 
+      &quot;screen&quot; : 0, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 0, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.motorola.togglewidgets/.AirplaneModeToggle&quot;, 
+      &quot;screen&quot; : 0, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 1, 
+      &quot;itemData&quot; : {
+         &quot;expiration_hours&quot; : 24
+      }, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.motorola.blur.friendfeed/.widget.SocialWidgetProvider&quot;, 
+      &quot;screen&quot; : 0, 
+      &quot;spanX&quot; : 4, 
+      &quot;spanY&quot; : 3
+   }, 
+   {
+      &quot;cellX&quot; : 2, 
+      &quot;cellY&quot; : 0, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.motorola.togglewidgets/.WifiToggle&quot;, 
+      &quot;screen&quot; : 0, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 1, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.google.android.apps.genie.geniewidget/.activities.NewsActivity&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 1, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 1, 
+      &quot;itemData&quot; : {
+         &quot;displayName&quot; : &quot;Connected_Music_Player&quot;
+      }, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.motorola.blur.music/.NowPlayingWidgetProvider&quot;, 
+      &quot;screen&quot; : 1, 
+      &quot;spanX&quot; : 4, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 2, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.motorola.blurgallery/com.motorola.cgallery.Dashboard&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 1, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.nuance.android.vsuite.vsuiteapp/.VSuiteStartSession&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 1, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1, 
+      &quot;title&quot; : &quot;#Voice_dialler;&quot;
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 0, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.google.android.googlequicksearchbox/.SearchWidgetProvider&quot;, 
+      &quot;screen&quot; : 1, 
+      &quot;spanX&quot; : 4, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 3, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.motorola.blur.email/.mailbox.ViewFolderActivity&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 1, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1, 
+      &quot;title&quot; : &quot;#email;&quot;
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 0, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.motorola.blur.home/.widgets.contacts.ContactsHeroWidgetProvider&quot;, 
+      &quot;screen&quot; : 2, 
+      &quot;spanX&quot; : 4, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 1, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.android.protips/.ProtipWidget&quot;, 
+      &quot;screen&quot; : 2, 
+      &quot;spanX&quot; : 4, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 2, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.google.android.apps.maps/com.google.android.maps.MapsActivity&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 2, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1, 
+      &quot;title&quot; : &quot;#maps;&quot;
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 2, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.motorola.togglewidgets.DataToggle&quot;, 
+      &quot;screen&quot; : 2, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 1, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.android.browser/.BrowserActivity&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 2, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1, 
+      &quot;title&quot; : &quot;#browser;&quot;
+   }, 
+   {
+      &quot;cellX&quot; : 3, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.android.vending/.AssetBrowserActivity&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 2, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1, 
+      &quot;title&quot; : &quot;#market;&quot;
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.google.android.gm/.ConversationListActivityGmail&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 2, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1, 
+      &quot;title&quot; : &quot;#gmail;&quot;
+   }, 
+   {
+      &quot;cellX&quot; : 2, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.motorola.blur.tasks/.TaskListActivity&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 3, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 3, 
+      &quot;itemData&quot; : {
+         &quot;displayName&quot; : &quot;Búsqueda de contactos&quot;
+      }, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;#Intent;action=com.android.contacts.action.FILTER_CONTACTS;launchFlags=0x4000000;component=com.android.contacts/.SearchResultsActivity;B.com.motorola.blur.home.EXTRA_NO_RESTORE=false;end&quot;, 
+      &quot;screen&quot; : 3, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 3, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.motorola.blur.alarmclock/.AlarmClock&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 3, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1, 
+      &quot;title&quot; : &quot;Alarm &amp; Timer&quot;
+   }, 
+   {
+      &quot;cellX&quot; : 1, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.motorola.hotspotlauncher/.HotspotLauncher&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 3, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 2, 
+      &quot;cellY&quot; : 0, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.motorola.blur.home.message/.MessageWidgetProvider&quot;, 
+      &quot;screen&quot; : 3, 
+      &quot;spanX&quot; : 2, 
+      &quot;spanY&quot; : 2
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 0, 
+      &quot;itemData&quot; : {
+         &quot;displayName&quot; : &quot;#Calendar;&quot;
+      }, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.android.providers.calendar/.CalendarWidgetProvider&quot;, 
+      &quot;screen&quot; : 3, 
+      &quot;spanX&quot; : 2, 
+      &quot;spanY&quot; : 2
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 0, 
+      &quot;itemData&quot; : {
+         &quot;displayName&quot; : &quot;Connected Gallery&quot;
+      }, 
+      &quot;itemType&quot; : 4, 
+      &quot;provider&quot; : &quot;com.motorola.blurgallery/com.motorola.cgallery.widget.CMPGalleryWidgetProvider&quot;, 
+      &quot;screen&quot; : 4, 
+      &quot;spanX&quot; : 3, 
+      &quot;spanY&quot; : 2
+   }, 
+   {
+      &quot;cellX&quot; : 0, 
+      &quot;cellY&quot; : 3, 
+      &quot;intent&quot; : &quot;com.motorola.blur.helpcenter/.HelpCenter&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : 4, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 3, 
+      &quot;cellY&quot; : -1, 
+      &quot;container&quot; : -200, 
+      &quot;intent&quot; : &quot;com.android.contacts/.DialtactsActivity&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : -1, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1
+   }, 
+   {
+      &quot;cellX&quot; : 2, 
+      &quot;cellY&quot; : -1, 
+      &quot;container&quot; : -200, 
+      &quot;intent&quot; : &quot;com.motorola.blur.conversations/.ui.ConversationList&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : -1, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1, 
+      &quot;title&quot; : &quot;#text_messaging;&quot;
+   }, 
+   {
+      &quot;cellX&quot; : 1, 
+      &quot;cellY&quot; : -1, 
+      &quot;container&quot; : -200, 
+      &quot;intent&quot; : &quot;com.motorola.Camera/.Camera&quot;, 
+      &quot;itemType&quot; : 0, 
+      &quot;screen&quot; : -1, 
+      &quot;spanX&quot; : 1, 
+      &quot;spanY&quot; : 1, 
+      &quot;title&quot; : &quot;#camera;&quot;
+   }
+]</string><string name='home_orientation'>portrait</string></map>

@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map>
+<boolean name='load_from_string' value='true'/>
+<string name='home_orientation'>portrait</string></map>

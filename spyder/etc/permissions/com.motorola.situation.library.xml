@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- Provides client access (AIDL/RPC) to the ContextEngine -->
+    <!-- Provides ContextEngine Constant definitions -->
+    <library name="com.motorola.situation.library"
+             file="/system/framework/com.motorola.situation.library.jar"/>
+</permissions>
