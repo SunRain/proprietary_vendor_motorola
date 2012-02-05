@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
 	vendor/motorola/jordan/lib/dsp/h264vdec_sn.dll64P:system/lib/dsp/h264vdec_sn.dll64P \
 	vendor/motorola/jordan/lib/dsp/h264venc_sn.dll64P:system/lib/dsp/h264venc_sn.dll64P \
+	vendor/motorola/jordan/lib/dsp/jpegdec_sn.dll64P:system/lib/dsp/jpegdec_sn.dll64P \
 	vendor/motorola/jordan/lib/dsp/jpegenc_sn.dll64P:system/lib/dsp/jpegenc_sn.dll64P \
 	vendor/motorola/jordan/lib/dsp/m4venc_sn.dll64P:system/lib/dsp/m4venc_sn.dll64P \
 	vendor/motorola/jordan/lib/dsp/mp3dec_sn.dll64P:system/lib/dsp/mp3dec_sn.dll64P \
@@ -72,6 +73,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/dsp/720p_h264venc_sn.dll64P:system/lib/dsp/720p_h264venc_sn.dll64P \
 	vendor/motorola/jordan/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
 	vendor/motorola/jordan/lib/dsp/wmv9dec_sn.dll64P:system/lib/dsp/wmv9dec_sn.dll64P \
+	vendor/motorola/jordan/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P \
 	vendor/motorola/jordan/lib/egl/libeglinfo.so:system/lib/egl/libeglinfo.so \
 	vendor/motorola/jordan/lib/egl/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
 	vendor/motorola/jordan/lib/egl/libgles1_texture_stream.so:system/lib/egl/libgles1_texture_stream.so \
@@ -155,8 +157,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/app/FMRadio.apk:system/app/FMRadio.apk \
 	vendor/motorola/jordan/app/FMRadioService.apk:system/app/FMRadioService.apk \
-	vendor/motorola/jordan/app/MotoPhonePortal.apk:system/app/MotoPhonePortal.apk
+	vendor/motorola/jordan/app/MotoPhonePortal.apk:system/app/MotoPhonePortal.apk \
+	vendor/motorola/jordan/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
+	vendor/motorola/jordan/app/CompassCalibrate.apk:system/app/CompassCalibrate.apk \
 
 #extra
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/media/Moto.ogg:system/media/audio/ringtones/Moto.ogg
+
+#prebuilt libs from CyanogenDefy for CM 7.1.0 (omap3 and omx changes)
+PRODUCT_COPY_FILES += \
+	vendor/motorola/jordan/cm71/libstagefright.so:system/lib/libstagefright.so \
+	vendor/motorola/jordan/cm71/libOMX.TI.Video.Decoder.so:system/lib/libOMX.TI.Video.Decoder.so \
+
+#the end
