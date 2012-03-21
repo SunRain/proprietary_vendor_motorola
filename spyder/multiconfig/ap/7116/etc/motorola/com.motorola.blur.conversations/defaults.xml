@@ -35,4 +35,4 @@
 <string name='AcceptCharset'>US-ASCII, ISO-8859-1, UTF-8</string>
 <string name='HttpParameters'>x-up-calling-line-id: ##LINE1##|x-vzw-mdn: ##LINE1##</string>
 <string name='UaprofTagName'>profile</string>
-<boolean name='ShowEncodingOptions' value='true'/><int name='DefaultEncodingMethod' value='0'/></map>
+<int name='DefaultEncodingMethod' value='0'/><boolean name='ShowEncodingOptions' value='true'/></map>

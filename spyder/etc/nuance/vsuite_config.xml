@@ -7,4 +7,6 @@
     <vsuite_feature_check_payment value="disabled"/>
     <vsuite_feature_check_missed_calls_custom_enabled value="true"/>
     <vsuite_feature_wakelock_use_on_after_release value="true"/>
+    <vsuite_feature_phonebook_resync_delay value="15000"/>
+    <vsuite_feature_playList_picker_intent value="android.intent.action.PICK"/>
 </config>

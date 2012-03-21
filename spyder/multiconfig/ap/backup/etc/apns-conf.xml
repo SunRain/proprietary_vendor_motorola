@@ -420,26 +420,6 @@
          mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
     />
 
-    <apn carrier="Vodafone-NL"
-        mcc="204"
-        mnc="04"
-        apn="emgsm.vzw3g.com"
-        user="*"
-        server="*"
-        password="*"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        type="default,mms"
-    />
-    <apn carrier="Vodafone-NL"
-        mcc="204"
-        mnc="04"
-        apn="dungsm.vzw3g.com"
-        user="*"
-        server="*"
-        password="*"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        type="dun"
-    />
 
     <!-- BEGIN Motorola, w21723, 2011-06-24, IKMAIN-21926 / Add Korea Carrier APNs -->
     <!-- Korea -->

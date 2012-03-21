@@ -166,11 +166,14 @@ getStoragePath(){
     esac
 }
 
+#Parameter description:
+# $1 : the full path of the source file, can not be empty
+# $2 : the destination file name containing no full path, can be empty.
 copyFileIfExists(){
     fileExists $1
     case $? in
         "1")
-            /system/bin/cp $1 $storageSubPath
+            /system/bin/cp $1 $storageSubPath/$2
         ;;
     esac
 }
@@ -195,9 +198,9 @@ collectLogs(){
     #whether the user has an external SD Card inserted or not.  Make sure we
     #look everywhere.
     for file in $aolFiles; do
-        copyFileIfExists "/sdcard-ext/logger/${file}"
-        copyFileIfExists "/sdcard/logger/${file}"
-        copyFileIfExists "/data/logger/${file}"
+        copyFileIfExists "/sdcard-ext/logger/${file}" "sdcard-ext_logger_${file}"
+        copyFileIfExists "/sdcard/logger/${file}" "sdcard_logger_${file}"
+        copyFileIfExists "/data/logger/${file}" "data_logger_${file}"
     done
 
     #Grab the Battery Tracer log files.  Make sure to grab the last set of

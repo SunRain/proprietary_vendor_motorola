@@ -1014,8 +1014,6 @@
   <apn mnc='200' mcc='310' carrier='T-Mobile US 200' mmsc='http://mms.msg.eng.t-mobile.com/mms/wapenc' server='*' user='none' password='none' apn='epc.tmobile.com'/>
   <apn auth='NONE' mnc='220' mcc='310' carrier='T-Mobile US 220' mmsc='http://mms.msg.eng.t-mobile.com/mms/wapenc' server='*' user='none' password='none' apn='epc.tmobile.com'/>
   <apn auth='NONE' mnc='490' mcc='310' carrier='T-Mobile US 490' mmsc='http://mms.msg.eng.t-mobile.com/mms/wapenc' server='*' user='none' password='none' apn='epc.tmobile.com'/>
-  <apn mnc='04' mcc='204' carrier='Vodafone-NL' mmsc='http://mms.vtext.com/servlets/mms' server='*' type='default,mms' user='*' password='*' apn='emgsm.vzw3g.com'/>
-  <apn mnc='04' mcc='204' carrier='Vodafone-NL' mmsc='http://mms.vtext.com/servlets/mms' server='*' type='dun' user='*' password='*' apn='dungsm.vzw3g.com'/>
   <apn mmsport='9093' auth='' mnc='05' mcc='450' carrier='SKT-Home' mmsc='http://omms.nate.com:9082/oma_mms' mmsproxy='smart.nate.com' server='*' type='' preloaded='true' user='' password='' apn='web.sktelecom.com'/>
   <apn mmsport='9093' auth='' mnc='05' mcc='450' carrier='SKT-Roaming' mmsc='http://omms.nate.com:9082/oma_mms' mmsproxy='smart.nate.com' server='*' type='' preloaded='true' user='' password='' apn='roaming.sktelecom.com'/>
   <apn mmsport='9093' auth='' mnc='05' mcc='450' carrier='SKT-MMS' mmsc='http://omms.nate.com:9082/oma_mms' mmsproxy='smart.nate.com' server='*' type='mms' preloaded='true' user='' password='' apn='mmsonly.sktelecom.com'/>

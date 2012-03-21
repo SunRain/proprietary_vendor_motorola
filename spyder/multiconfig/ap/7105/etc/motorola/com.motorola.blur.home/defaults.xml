@@ -141,7 +141,7 @@
       &quot;cellX&quot; : 0, 
       &quot;cellY&quot; : 2, 
       &quot;itemType&quot; : 4, 
-      &quot;provider&quot; : &quot;com.motorola.togglewidgets.DataToggle&quot;, 
+      &quot;provider&quot; : &quot;com.motorola.togglewidgets/.DataToggle&quot;, 
       &quot;screen&quot; : 2, 
       &quot;spanX&quot; : 1, 
       &quot;spanY&quot; : 1

@@ -31,6 +31,7 @@
   <apn mmsport='8080' mnc='02' mcc='272' carrier='O2.ie Mobile Internet' mmsc='http://mmsc.mms.o2.ie:8002' mmsproxy='62.40.32.40' preloaded='true' apn='internet'/>
   <apn mnc='01' mcc='208' carrier='Orange World' type='default,supl' preloaded='false' user='orange' password='orange' apn='orange'/>
   <apn mnc='10' mcc='208' carrier='SFR webphone' type='default' preloaded='false' apn='sl2sfr'/>
+  <apn mnc='01' mcc='238' carrier='TELMORE Internet' spn='TELMORE' type='default' preloaded='false' apn='internet'/>
   <apn mmsport='8799' mnc='15' mcc='234' carrier='Vodafone Contract WAP' mmsc='http://mms.vodafone.co.uk/servlets/mms' mmsproxy='212.183.137.012' type='default,mms,supl,agps,fota' preloaded='false' user='wap' password='wap' apn='wap.vodafone.co.uk'/>
   <apn mnc='01' mcc='226' port='8080' carrier='Vodafone live!' proxy='193.230.161.231' type='default' preloaded='false' user='live' password='vodafone' apn='live.vodafone.com'/>
   <apn mnc='10' mcc='208' port='8080' carrier='wap65 Amobile' proxy='192.168.21.8' spn='A MOBILE' type='default' preloaded='false' apn='wap65'/>
@@ -46,6 +47,7 @@
   <apn mmsport='8799' mnc='15' mcc='234' carrier='PAYG WAP' mmsc='http://mms.vodafone.co.uk/servlets/mms' mmsproxy='212.183.137.012' type='default,dun,mms,supl,agps,fota' preloaded='false' user='wap' password='wap' apn='pp.vodafone.co.uk'/>
   <apn mnc='10' mcc='208' carrier='SFR mobile' type='default' preloaded='false' apn='wapsfr'/>
   <apn mmsport='8799' mnc='15' mcc='234' carrier='Talkmob PAYG Int' mmsc='http://mms.talkmobile.co.uk/servlets/mms' mmsproxy='212.183.137.12' spn='Talkmobile' type='default,dun,mms,supl,agps,fota' preloaded='false' password='wap' apn='payg.talkmobile.co.uk'/>
+  <apn mnc='01' mcc='238' port='8080' carrier='TELMORE WAP' proxy='194.182.251.015' spn='TELMORE' type='default' preloaded='false' apn='wap'/>
   <apn mnc='01' mcc='226' port='8080' carrier='Vodafone live!PRE' proxy='193.230.161.231' type='default' preloaded='false' user='live' password='vodafone' apn='live.pre.vodafone.com'/>
   <apn mnc='04' mcc='204' authtype='1' carrier='Vodafone NL Internet' type='default' preloaded='false' user='vodafone' password='vodafone' apn='live.vodafone.com'/>
   <apn mnc='03' mcc='226' carrier='web&apos;n&apos;walk' type='default' preloaded='false' user='wnw' password='wnw' apn='wnw'/>
@@ -201,6 +203,10 @@
   <apn mnc='90' mcc='218' authtype='0' carrier='BH Mobile' type='default' preloaded='false' apn='active.bhmobile.ba'/>
   <apn mnc='90' mcc='218' authtype='0' carrier='BH Mobile DUN' type='dun' preloaded='false' apn='active.bhmobile.ba'/>
   <apn mmsport='8080' mnc='90' mcc='218' authtype='0' carrier='BH Mobile MMS' mmsc='http://mms.bhmobile.ba/cmmsc/post' mmsproxy='195.222.56.41' type='mms' preloaded='false' apn='mms.bhmobile.ba'/>
+  <apn mnc='02' mcc='246' carrier='Bite' spn='LT Bite' type='default' preloaded='false' apn='internet'/>
+  <apn mnc='05' mcc='247' carrier='Bite' spn='Bite LV' type='default' preloaded='false' apn='internet'/>
+  <apn mmsport='8080' mnc='02' mcc='246' carrier='Bite MMS' mmsc='http://mmsc' mmsproxy='192.168.150.2' spn='LT Bite' type='mms' preloaded='false' user='mms@mms' password='mms' apn='mms'/>
+  <apn mmsport='8080' mnc='05' mcc='247' carrier='Bite MMS' mmsc='http://mmsc' mmsproxy='192.168.150.2' spn='Bite LV' type='mms' preloaded='false' user='mms@mms' password='mms' apn='MMS'/>
   <apn mnc='01' mcc='219' authtype='0' carrier='bonbon DUN' spn='bonbon' type='dun' preloaded='false' apn='web.htgprs'/>
   <apn mnc='01' mcc='219' authtype='0' carrier='bonbon Internet' spn='bonbon' type='default' preloaded='false' apn='web.htgprs'/>
   <apn mmsport='8080' mnc='01' mcc='219' authtype='0' carrier='bonbon MMS' mmsc='http://mms.bonbon.com.hr/servlets/mms' mmsproxy='010.012.000.004' spn='bonbon' type='mms' preloaded='false' apn='mms.htgprs'/>
@@ -211,6 +217,8 @@
   <apn mmsport='8799' mnc='15' mcc='234' carrier='BT Mobile DUN' mmsc='http://mms.bt.com/servlets/mms' mmsproxy='212.183.137.12' spn='BT' type='dun' preloaded='false' user='bt' password='bt' apn='btmobile.bt.com'/>
   <apn mmsport='8080' mnc='10' mcc='208' carrier='C LE MMS' mmsc='http://mmsnrj' mmsproxy='10.143.156.5' spn='C le mobile' type='mms' preloaded='false' apn='mmsnrj'/>
   <apn mmsport='8080' mnc='01' mcc='208' carrier='C LE MMS (FR)' mmsc='http://mms.orange.fr/' mmsproxy='192.168.10.200' spn='C le mobile' type='mms' preloaded='false' user='orange' password='orange' apn='orange.acte'/>
+  <apn mnc='20' mcc='238' carrier='Call me Internet' spn='Call me' type='default' preloaded='false' apn='websp'/>
+  <apn mnc='20' mcc='238' carrier='Call me MMS' mmsc='http://193.209.134.131' spn='Call me' type='mms' preloaded='false' apn='mmssp'/>
   <apn mnc='19' mcc='502' carrier='Celcom' type='default' preloaded='false' apn='celcom3G'/>
   <apn mnc='19' mcc='502' carrier='Celcom DUN' type='dun' preloaded='false' apn='celcom3G'/>
   <apn mmsport='8080' mnc='19' mcc='502' carrier='Celcom MMS' mmsc='http://mms.celcom.net.my' mmsproxy='10.128.1.242' type='mms' preloaded='false' apn='celcom3G'/>
@@ -275,8 +283,17 @@
   <apn mmsport='5080' mnc='03' mcc='262' carrier='E-Plus MMS (DE)' mmsc='http://mms/eplus' mmsproxy='212.23.97.153' type='mms' preloaded='false' user='mms' password='eplus' apn='mms.eplus.de'/>
   <apn mnc='05' mcc='244' carrier='Elisa' type='default' preloaded='false' apn='internet'/>
   <apn mnc='05' mcc='244' carrier='Elisa DUN' type='dun' preloaded='false' apn='internet'/>
+  <apn mnc='02' mcc='248' carrier='Elisa internet' spn='EE Elisa' preloaded='false' apn='internet'/>
   <apn mmsport='8080' mnc='05' mcc='244' carrier='Elisa MMS' mmsc='http://mms.elisa.fi' mmsproxy='213.161.41.57' type='mms' preloaded='false' apn='mms'/>
+  <apn mmsport='8000' mnc='02' mcc='248' carrier='Elisa MMS' mmsc='194.204.2.10' mmsproxy='194.204.2.6' spn='EE Elisa' type='mms' preloaded='false' apn='mms'/>
+  <apn mnc='02' mcc='248' port='8000' carrier='Elisa WAP' proxy='194.204.2.6' spn='EE Elisa' type='default' preloaded='false' apn='wap'/>
+  <apn mnc='01' mcc='248' carrier='EMT Internet' spn='EE EMT' type='default' preloaded='false' apn='internet.emt.ee'/>
+  <apn mnc='01' mcc='248' carrier='EMT Internet KoneKaart' spn='EE EMT' type='default' preloaded='false' apn='internet2.emt.ee'/>
+  <apn mmsport='8080' mnc='01' mcc='248' carrier='EMT MMS' mmsc='http://mms.emt.ee/servlets/mms' mmsproxy='217.71.32.82' spn='EE EMT' type='mms' preloaded='false' password='password' apn='mms.emt.ee'/>
+  <apn mnc='01' mcc='248' carrier='EMT MMS Konekaart' spn='EE EMT' type='mms' preloaded='false' apn='mms2.emt.ee'/>
+  <apn mnc='01' mcc='248' carrier='EMT Mobiil-TV Konekaart' spn='EE EMT' preloaded='false' apn='wap2.emt.ee'/>
   <apn mnc='10' mcc='222' port='80' carrier='ERG Internet (DUN)' spn='ERG' type='dun' preloaded='false' apn='mobile.erg.it'/>
+  <apn mnc='10' mcc='222' port='80' carrier='ERG Internet Webtop' spn='ERG' type='webtop' preloaded='false' apn='mobile.erg.it'/>
   <apn mnc='10' mcc='222' carrier='ErgMobile WAP' spn='ERG' type='default' preloaded='false' apn='mobile.erg.it'/>
   <apn mnc='03' mcc='218' authtype='0' carrier='Eronet BH' type='default' preloaded='false' apn='gprs.eronet.ba'/>
   <apn mnc='03' mcc='218' authtype='0' carrier='Eronet BH DUN' type='dun' preloaded='false' apn='gprs.eronet.ba'/>
@@ -303,6 +320,7 @@
   <apn mmsport='8080' mnc='01' mcc='466' carrier='Far Eas Tone MMS (466.01)' mmsc='http://mms' mmsproxy='210.241.199.199' type='mms' preloaded='false' apn='fetnet01'/>
   <apn mmsport='8080' mnc='99' mcc='222' port='80' carrier='Fastweb' mmsc='http://mms.fastweb.it/mms/wapenc' mmsproxy='10.0.65.9' spn='FASTWEB' type='default,mms,supl,agps,fota' preloaded='false' apn='apn.fastweb.it'/>
   <apn mmsport='8080' mnc='99' mcc='222' port='80' carrier='Fastweb DUN' mmsc='http://mms.fastweb.it/mms/wapenc' mmsproxy='10.0.65.9' spn='FASTWEB' type='dun' preloaded='false' apn='apn.fastweb.it'/>
+  <apn mmsport='8080' mnc='99' mcc='222' port='80' carrier='Fastweb Webtop' mmsc='http://mms.fastweb.it/mms/wapenc' mmsproxy='10.0.65.9' spn='FASTWEB' type='webtop' preloaded='false' apn='apn.fastweb.it'/>
   <apn mmsport='8080' mnc='07' mcc='262' carrier='Fonic' mmsc='http://10.81.0.7:8002' mmsproxy='82.113.100.6' spn='FONIC' preloaded='false' apn='pinternet.interkom.net'/>
   <apn mnc='15' mcc='208' carrier='Free' type='default' preloaded='false' apn='free'/>
   <apn mmsport='8080' mnc='15' mcc='208' carrier='Free MMS' mmsproxy='10.0.0.10' type='mms' preloaded='false' apn='mmsfree'/>
@@ -317,6 +335,7 @@
   <apn mnc='01' mcc='470' carrier='GP-INTERNET' type='default' preloaded='false' apn='gpinternet'/>
   <apn mmsport='8080' mnc='01' mcc='470' carrier='GP-MMS' mmsc='http://mms.gpsurf.net/servlets/mms' mmsproxy='10.128.1.2' type='mms' preloaded='false' apn='gpmms'/>
   <apn mnc='99' mcc='222' port='80' carrier='H3G DUN (IT)' type='dun' preloaded='false' apn='tre.it'/>
+  <apn mnc='99' mcc='222' port='80' carrier='H3G Webtop (IT)' spn='3 ITA' type='webtop' preloaded='false' apn='tre.it'/>
   <apn mnc='10' mcc='219' authtype='0' carrier='HR VIP' type='default' preloaded='false' user='38591' password='38591' apn='data.vip.hr'/>
   <apn mnc='10' mcc='219' authtype='0' carrier='HR VIP DUN' type='dun' preloaded='false' user='38591' password='38591' apn='data.vip.hr'/>
   <apn mmsport='8080' mnc='10' mcc='219' authtype='0' carrier='HR VIP mms' mmsc='http://mms.vipnet.hr/servlets/mms' mmsproxy='212.91.99.91' type='mms' preloaded='false' user='38591' password='38591' apn='mms.vipnet.hr'/>
@@ -377,7 +396,10 @@
   <apn mmsport='8080' mnc='01' mcc='510' carrier='Indosat MMS (01)' mmsc='http://mmsc.indosat.com' mmsproxy='10.19.19.19' type='mms' preloaded='false' user='indosat' password='indosat' apn='indosatmms'/>
   <apn mmsport='8080' mnc='21' mcc='510' carrier='Indosat MMS (21)' mmsc='http://mmsc.indosat.com' mmsproxy='10.19.19.19' type='mms' preloaded='false' user='indosat' password='indosat' apn='indosatmms'/>
   <apn mnc='01' mcc='232' carrier='Internet Account' server='*' type='default' preloaded='false' user='ppp@A1plus.at' password='ppp' apn='A1.net'/>
+  <apn mnc='03' mcc='248' carrier='Internet' spn='Tele2 EE' type='default' preloaded='false' apn='Internet.tele2.ee'/>
   <apn mnc='01' mcc='214' authtype='1' carrier='INTERNET' type='dun' preloaded='false' user='vodafone' password='vodafone' apn='airtelnet.es'/>
+  <apn mnc='03' mcc='246' carrier='Internet' spn='Tele2' type='default' preloaded='false' user='wap' password='wap' apn='internet.tele2.lt'/>
+  <apn mnc='02' mcc='247' carrier='Internet' spn='LV TELE2' type='default' preloaded='false' user='wap' password='wap' apn='internet.tele2.lv'/>
   <apn mnc='01' mcc='214' authtype='1' carrier='Internet móvil' type='default' preloaded='false' user='wap@wap' password='wap125' apn='airtelwap.es'/>
   <apn mnc='05' mcc='214' authtype='1' carrier='Internet Tuenti' type='default' preloaded='false' user='tuenti' password='tuenti' apn='tuenti.com'/>
   <apn mmsport='8080' mnc='05' mcc='425' carrier='Jawwal MMS' mmsc='http://mms.jawwal.ps/servlets/mms' mmsproxy='213.244.118.129' type='mms' preloaded='false' apn='mms'/>
@@ -397,6 +419,9 @@
   <apn mmsport='8000' mnc='00' mcc='606' carrier='Libyana MMS' mmsc='http://62.240.62.180:80' mmsproxy='192.168.8.148' type='mms' preloaded='false' apn='mms'/>
   <apn mnc='06' mcc='255' carrier='life:) Internet' type='default' preloaded='false' apn='internet'/>
   <apn mmsport='8080' mnc='06' mcc='255' carrier='life:) MMS' mmsc='http://mms.life.com.ua/cmmsc/post' mmsproxy='212.58.162.230' type='mms' preloaded='false' apn='mms'/>
+  <apn mnc='01' mcc='247' carrier='LMT Internet' spn='LMT' type='default' preloaded='false' user='lmt' password='lmt' apn='internet.lmt.lv'/>
+  <apn mmsport='8080' mnc='01' mcc='247' port='8080' carrier='LMT MMS' mmsc='http://mmsc.lmt.lv/mmsc' mmsproxy='212.093.097.201' spn='LMT' type='mms' preloaded='false' user='lmt' password='lmt' apn='mms.lmt.lv'/>
+  <apn mnc='01' mcc='247' carrier='LMT Video' spn='LMT' preloaded='false' apn='video.lmt.lv'/>
   <apn mnc='01' mcc='270' carrier='LUXGSM' server='194.154.192.101' type='default' preloaded='false' apn='web.pt.lu'/>
   <apn mnc='01' mcc='270' carrier='LUXGSM DUN' server='194.154.192.101' type='dun' preloaded='false' apn='web.pt.lu'/>
   <apn mmsport='8080' mnc='01' mcc='270' carrier='LUXGSM mms' mmsc='http://mmsc.pt.lu' mmsproxy='194.154.192.88' type='mms' preloaded='false' user='mms' password='mms' apn='mms.pt.lu'/>
@@ -424,8 +449,11 @@
   <apn mnc='03' mcc='525' carrier='MiWorld GPRS' type='default' preloaded='false' user='65' password='user123' apn='sunsurf'/>
   <apn mmsport='8001' mnc='01' mcc='232' authtype='2' carrier='MMS Account' mmsc='http://mmsc.A1.net' mmsproxy='194.48.124.85' server='*' type='mms' preloaded='false' user='ppp@A1plus.at' password='ppp' apn='free.A1.net'/>
   <apn mmsport='8080' mnc='01' mcc='208' carrier='MMS Carrefour' mmsc='http://mms.orange.fr/' mmsproxy='192.168.10.200' spn='Carrefour Mobile' type='mms' preloaded='false' user='orange' password='orange' apn='orange.acte'/>
+  <apn mmsport='8080' mnc='03' mcc='248' carrier='MMS' mmsc='http://mmsc.tele2.ee' mmsproxy='193.012.040.006' spn='Tele2 EE' type='mms' preloaded='false' apn='mms.tele2.ee'/>
   <apn mmsport='8080' mnc='01' mcc='604' carrier='MMS IAM' mmsc='http://mms:8002/' mmsproxy='10.16.35.50' type='mms' preloaded='false' apn='mmsiam'/>
   <apn mmsport='8080' mnc='10' mcc='208' carrier='MMS La Poste Mobile' mmsc='http://mmsdebitel' mmsproxy='10.143.156.3' spn='La Poste Mobile' type='mms' preloaded='false' apn='mmsdebitel'/>
+  <apn mmsport='8080' mnc='03' mcc='246' carrier='MMS' mmsc='http://mmsc.tele2.lt' mmsproxy='193.012.040.029' spn='Tele2' type='mms' preloaded='false' user='wap' password='wap' apn='mms.tele2.lt'/>
+  <apn mmsport='8080' mnc='02' mcc='247' carrier='MMS' mmsc='http://mmsc.tele2.lv' mmsproxy='193.012.040.038' spn='LV TELE2' type='mms' preloaded='false' user='wap' password='wap' apn='mms.tele2.lv'/>
   <apn mmsport='8080' mnc='10' mcc='208' carrier='MMS MOBISUD' mmsc='http://mms62' mmsproxy='10.143.156.7' spn='MOBISUD' type='mms' preloaded='false' apn='mms62'/>
   <apn mmsport='8080' mnc='10' mcc='208' carrier='MMS simplicime' mmsc='http://mmsdebitel' mmsproxy='10.143.156.3' spn='simplicime' type='mms' preloaded='false' apn='mmsdebitel'/>
   <apn mmsport='8080' mnc='10' mcc='647' carrier='MMS SRR' mmsc='http://mms' mmsproxy='10.0.224.145' type='mms' preloaded='false' user='mms' password='mms' apn='mmssfr'/>
@@ -517,6 +545,8 @@
   <apn mnc='02' mcc='422' port='8080' authtype='1' carrier='Oman Mobile GPRS' type='default' preloaded='false' user='taif' password='taif' apn='taif'/>
   <apn mnc='02' mcc='422' port='8080' authtype='1' carrier='Oman Mobile GPRS DUN' type='dun' preloaded='false' user='taif' password='taif' apn='taif'/>
   <apn mmsport='8080' mnc='02' mcc='422' carrier='Oman Mobile MMS' mmsc='http://mmsc.omanmobile.om:10021/mmsc' mmsproxy='192.168.203.35' type='mms' preloaded='false' user='mms' password='mms' apn='mms'/>
+  <apn mnc='01' mcc='246' carrier='Omni Internet' spn='Omnitel' type='default' preloaded='false' apn='omnitel'/>
+  <apn mmsport='8080' mnc='01' mcc='246' carrier='OMNI MMS' mmsc='http://mms.omnitel.net:8002/' mmsproxy='194.176.32.149' spn='Omnitel' type='mms' preloaded='false' user='mms' password='mms' apn='gprs.mms.lt'/>
   <apn mnc='02' mcc='294' carrier='ONE MK Internet' type='default' preloaded='false' apn='internet'/>
   <apn mnc='02' mcc='294' carrier='ONE MK Internet DUN' type='dun' preloaded='false' user='internet' apn='internet'/>
   <apn mmsport='8080' mnc='02' mcc='294' carrier='ONE MK MMS' mmsc='http://195.167.65.220:8002' mmsproxy='010.010.010.020' type='mms' preloaded='false' apn='mms'/>
@@ -544,6 +574,7 @@
   <apn mnc='03' mcc='228' carrier='Orange Internet DUN (CH)' type='dun' preloaded='false' apn='internet'/>
   <apn mnc='03' mcc='214' port='8080' authtype='1' carrier='Orange Internet Movil' proxy='10.132.61.10' type='default' preloaded='false' user='orange' password='orange' apn='orangeworld'/>
   <apn mnc='03' mcc='214' carrier='Orange Internet PC' type='dun' preloaded='false' user='orange' password='orange' apn='internet'/>
+  <apn mnc='01' mcc='208' carrier='Orange Internet Webtop' spn='Orange F' type='webtop' preloaded='false' user='orange' password='orange' apn='orange.fr'/>
   <apn mnc='770' mcc='416' carrier='Orange JO DUN' type='dun' preloaded='false' user='net' password='net' apn='net.orange.jo'/>
   <apn mnc='770' mcc='416' authtype='1' carrier='Orange JO Internet' type='default' preloaded='false' user='net' password='net' apn='net.orange.jo'/>
   <apn mmsport='8080' mnc='770' mcc='416' port='8080' authtype='1' carrier='Orange JO MMS' proxy='172.16.1.2' mmsc='http://172.16.1.96/servlets/mms' mmsproxy='172.16.1.2' server='http://172.16.1.96/servlets/mms' type='mms' preloaded='false' user='mmc' password='mmc' apn='mms.orange.jo'/>
@@ -602,6 +633,12 @@
   <apn mnc='10' mcc='222' carrier='PosteMobile' spn='PosteMobile' type='default' preloaded='false' apn='wap.postemobile.it'/>
   <apn mnc='10' mcc='222' carrier='PosteMobile (DUN)' spn='PosteMobile' type='dun' preloaded='false' apn='internet.postemobile.it'/>
   <apn mmsport='80' mnc='10' mcc='222' carrier='PosteMobile MMS' mmsc='http://mms.postemobile.it/servlets/mms' mmsproxy='10.128.224.10' spn='PosteMobile' type='mms' preloaded='false' apn='mms.postemobile.it'/>
+  <apn mnc='10' mcc='222' carrier='PosteMobile Webtop' spn='PosteMobile' type='webtop' preloaded='false' apn='internet.postemobile.it'/>
+  <apn mmsport='8080' mnc='03' mcc='248' carrier='Prepaid Internet' mmsc='http://mmsc.tele2.ee' mmsproxy='193.012.040.006' spn='Tele2 EE' type='default' preloaded='false' apn='wap.tele2.ee'/>
+  <apn mnc='03' mcc='246' carrier='Prepaid Internet' spn='PILDYK' type='default' preloaded='false' user='wap' password='wap' apn='internet.tele2.lt'/>
+  <apn mnc='02' mcc='247' carrier='Prepaid Internet' spn='LV TELE2' type='default' preloaded='false' user='wap' password='wap' apn='internet.tele2.lv'/>
+  <apn mmsport='8080' mnc='03' mcc='246' carrier='Prepaid MMS' mmsc='http://mmsc.tele2.lt' mmsproxy='193.012.040.029' spn='PILDYK' type='mms' preloaded='false' apn='mms.tele2.lt'/>
+  <apn mmsport='8080' mnc='02' mcc='247' carrier='Prepaid MMS' mmsc='http://mmsc.tele2.lv' mmsproxy='193.012.040.038' spn='LV TELE2' type='mms' preloaded='false' apn='mms.tele2.lv'/>
   <apn mnc='01' mcc='427' port='8080' authtype='1' carrier='Qat-Qtel' type='default' preloaded='false' user='qtel' password='qtel' apn='web.qtel'/>
   <apn mnc='01' mcc='427' port='8080' authtype='1' carrier='Qat-Qtel DUN' type='dun' preloaded='false' user='qtel' password='qtel' apn='web.qtel'/>
   <apn mmsport='8080' mnc='01' mcc='427' carrier='Qat-Qtel mms' mmsc='http://mmsr.qtelmms.qa' mmsproxy='10.23.8.3' type='mms' preloaded='false' user='mms' password='mms' apn='mms.qtel'/>
@@ -613,6 +650,7 @@
   <apn mnc='21' mcc='244' carrier='Saunalahti' type='default' preloaded='false' apn='internet.saunalahti'/>
   <apn mnc='21' mcc='244' carrier='Saunalahti DUN' type='dun' preloaded='false' apn='internet.saunalahti'/>
   <apn mmsport='8080' mnc='21' mcc='244' carrier='Saunalahti MMS' mmsc='http://mms.saunalahti.fi:8002/' mmsproxy='62.142.4.197' type='mms' preloaded='false' apn='mms.saunalahti.fi'/>
+  <apn mnc='10' mcc='208' carrier='SFR option Modem Webtop' spn='F SFR' type='webtop' preloaded='false' apn='websfr'/>
   <apn mnc='70' mcc='293' authtype='0' carrier='SI TUSMOBIL' type='default' preloaded='false' user='tusmobil' password='internet' apn='internet.tusmobil.si'/>
   <apn mnc='70' mcc='293' authtype='0' carrier='SI TUSMOBIL DUN' type='dun' preloaded='false' user='tusmobil' password='internet' apn='internet.tusmobil.si'/>
   <apn mmsport='8080' mnc='70' mcc='293' authtype='0' carrier='SI TUSMOBIL mms' mmsc='http://mms.tusmobil.si:8002' mmsproxy='91.185.221.85' type='mms' preloaded='false' user='tusmobil' password='mms' apn='mms.tusmobil.si'/>
@@ -759,6 +797,7 @@
   <apn mnc='10' mcc='510' carrier='Telkomsel' type='default' preloaded='false' user='wap' password='wap123' apn='telkomsel'/>
   <apn mnc='10' mcc='510' carrier='Telkomsel DUN' type='dun' preloaded='false' user='wap' password='wap123' apn='telkomsel'/>
   <apn mmsport='8000' mnc='10' mcc='510' carrier='Telkomsel MMS' mmsc='http://mms.telkomsel.com' mmsproxy='10.1.89.150' type='mms' preloaded='false' user='wap' password='wap123' apn='mms'/>
+  <apn mmsport='8080' mnc='01' mcc='238' carrier='TELMORE MMS' mmsc='http://192.168.241.114:8002' mmsproxy='194.182.251.015' spn='TELMORE' type='mms' preloaded='false' apn='mms'/>
   <apn mnc='01' mcc='505' port='80' authtype='2' carrier='Telstra Internet' proxy='10.1.1.181' type='default' preloaded='false' apn='telstra.wap'/>
   <apn mmsport='80' mnc='01' mcc='505' carrier='Telstra MMS' mmsc='http://mmsc.telstra.com:8002' mmsproxy='10.1.1.180' type='mms' preloaded='false' apn='telstra.mms'/>
   <apn mmsport='8080' mnc='10' mcc='234' carrier='Tesco Mobile' mmsc='http://mmsc.mms.o2.co.uk:8002' mmsproxy='193.113.200.195' spn='TESCO' type='default,mms,supl,agps,fota' preloaded='false' user='tescowap' password='password' apn='prepay.tesco-mobile.com'/>
@@ -767,6 +806,7 @@
   <apn mnc='01' mcc='222' carrier='TIM' type='default' preloaded='false' user='WAPTIM' password='WAPTIM' apn='wap.tim.it'/>
   <apn mnc='01' mcc='222' carrier='TIM DUN (IT)' type='dun' preloaded='false' apn='ibox.tim.it'/>
   <apn mmsport='80' mnc='01' mcc='222' carrier='TIM MMS' mmsc='http://mms.tim.it/servlets/mms' mmsproxy='213.230.130.89' type='mms' preloaded='false' apn='unico.tim.it'/>
+  <apn mnc='01' mcc='222' carrier='TIM Webtop' spn='I TIM' type='webtop' preloaded='false' apn='ibox.tim.it'/>
   <apn mnc='01' mcc='219' authtype='0' carrier='TM HR DUN' type='dun' preloaded='false' apn='web.htgprs'/>
   <apn mnc='01' mcc='219' authtype='0' carrier='TM HR Internet' type='default' preloaded='false' apn='web.htgprs'/>
   <apn mmsport='8080' mnc='01' mcc='219' authtype='0' carrier='TM HR MMS' mmsc='http://mms.t-mobile.hr/servlets/mms' mmsproxy='010.012.000.004' type='mms' preloaded='false' apn='mms.htgprs'/>
@@ -944,6 +984,7 @@
   <apn mnc='02' mcc='286' carrier='VODAFONE TR DUN' type='dun' preloaded='false' apn='internet'/>
   <apn mmsport='9401' mnc='02' mcc='286' carrier='VODAFONE TR mms' mmsc='http://217.31.233.18:6001/MM1Servlet' mmsproxy='217.31.233.18' type='mms' preloaded='false' user='vodafone' password='vodafone' apn='mms'/>
   <apn mnc='01' mcc='278' carrier='Vodafone WEB (MT)' type='default' preloaded='false' user='internet' password='internet' apn='internet'/>
+  <apn mmsport='80' mnc='10' mcc='222' carrier='Vodafone Webtop' spn='Vodafone' type='webtop' preloaded='false' apn='web.omnitel.it'/>
   <apn mnc='01' mcc='208' carrier='Wap Carrefour' spn='Carrefour Mobile' type='default' preloaded='false' user='orange' password='orange' apn='ofnew.fr'/>
   <apn mnc='04' mcc='410' port='9201' carrier='Warid DUN' proxy='10.4.2.1' type='dun' preloaded='false' apn='wap.warid'/>
   <apn mmsport='9201' mnc='04' mcc='410' carrier='Warid MMS' mmsc='http://10.4.0.132/servlets/mms' mmsproxy='10.4.2.1' type='mms' preloaded='false' apn='mms.warid'/>
@@ -955,6 +996,7 @@
   <apn mnc='10' mcc='202' carrier='WIND GR Internet DUN' type='dun' preloaded='false' apn='gint.b-online.gr'/>
   <apn mmsport='9401' mnc='10' mcc='202' carrier='WIND GR MMS' mmsc='http://192.168.200.95/servlets/mms' mmsproxy='192.168.200.11' type='mms' preloaded='false' user='mms' password='mms' apn='mnet.b-online.gr'/>
   <apn mnc='88' mcc='222' carrier='WIND WEB' type='default' preloaded='false' apn='internet.wind'/>
+  <apn mnc='88' mcc='222' carrier='Wind Webtop (IT)' type='webtop' preloaded='false' apn='internet.wind'/>
   <apn mnc='11' mcc='510' port='8080' carrier='XL' proxy='202.152.240.50' type='default' preloaded='false' user='xlgprs' password='proxl' apn='www.xlgprs.net'/>
   <apn mnc='11' mcc='510' port='8080' carrier='XL DUN' proxy='202.152.240.50' type='dun' preloaded='false' user='xlgprs' password='proxl' apn='www.xlgprs.net'/>
   <apn mmsport='8080' mnc='11' mcc='510' carrier='XL MMS' mmsc='http://mmc.xl.net.id/servlets/mms' mmsproxy='202.152.240.50' server='http://mmc.xl.net.id/servlets/mms' type='mms' preloaded='false' user='xlgprs' password='proxl' apn='www.xlmms.net'/>
@@ -1014,8 +1056,6 @@
   <apn mnc='200' mcc='310' carrier='T-Mobile US 200' mmsc='http://mms.msg.eng.t-mobile.com/mms/wapenc' server='*' user='none' password='none' apn='epc.tmobile.com'/>
   <apn auth='NONE' mnc='220' mcc='310' carrier='T-Mobile US 220' mmsc='http://mms.msg.eng.t-mobile.com/mms/wapenc' server='*' user='none' password='none' apn='epc.tmobile.com'/>
   <apn auth='NONE' mnc='490' mcc='310' carrier='T-Mobile US 490' mmsc='http://mms.msg.eng.t-mobile.com/mms/wapenc' server='*' user='none' password='none' apn='epc.tmobile.com'/>
-  <apn mnc='04' mcc='204' carrier='Vodafone-NL' mmsc='http://mms.vtext.com/servlets/mms' server='*' type='default,mms' user='*' password='*' apn='emgsm.vzw3g.com'/>
-  <apn mnc='04' mcc='204' carrier='Vodafone-NL' mmsc='http://mms.vtext.com/servlets/mms' server='*' type='dun' user='*' password='*' apn='dungsm.vzw3g.com'/>
   <apn mmsport='9093' auth='' mnc='05' mcc='450' carrier='SKT-Home' mmsc='http://omms.nate.com:9082/oma_mms' mmsproxy='smart.nate.com' server='*' type='' preloaded='true' user='' password='' apn='web.sktelecom.com'/>
   <apn mmsport='9093' auth='' mnc='05' mcc='450' carrier='SKT-Roaming' mmsc='http://omms.nate.com:9082/oma_mms' mmsproxy='smart.nate.com' server='*' type='' preloaded='true' user='' password='' apn='roaming.sktelecom.com'/>
   <apn mmsport='9093' auth='' mnc='05' mcc='450' carrier='SKT-MMS' mmsc='http://omms.nate.com:9082/oma_mms' mmsproxy='smart.nate.com' server='*' type='mms' preloaded='true' user='' password='' apn='mmsonly.sktelecom.com'/>

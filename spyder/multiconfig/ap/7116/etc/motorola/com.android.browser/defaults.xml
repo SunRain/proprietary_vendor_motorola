@@ -1,1 +1,1 @@
-<map><string name='homepage'>http://www.google.com</string><boolean name='fix_picasa' value='false'/></map>
+<map><boolean name='fix_picasa' value='false'/><string name='homepage'>http://www.google.com</string></map>

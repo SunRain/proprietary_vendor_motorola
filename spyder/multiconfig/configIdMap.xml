@@ -584,4 +584,5 @@
   <config id="7158" mcc="525" mnc="999" name="Singapore Retail" spn=""/>
   <config id="7177" mcc="655" mnc="999" name="South Africa Retail" spn=""/>
   <config id="7012" mcc="999" mnc="999" name="Retail Nordics" spn="Retail Nordics"/>
+  <config id="7130" mcc="999" mnc="999" name="Turkey Retail" spn="Turkey Retail"/>
 </configid_map>
