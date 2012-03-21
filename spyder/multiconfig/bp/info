@@ -1,0 +1,10 @@
+ 
+drwxrwxr-x 2 wangguojian wangguojian 4096 2012-03-01 20:46 0
+drwxrwxr-x 2 wangguojian wangguojian 4096 2012-03-01 20:46 51
+lrwxrwxrwx 1 wangguojian wangguojian    2 2012-03-01 20:46 7005 -> 51
+lrwxrwxrwx 1 wangguojian wangguojian    4 2012-03-09 12:41 7006 -> 7005
+lrwxrwxrwx 1 wangguojian wangguojian    4 2012-03-09 12:41 7012 -> 7005
+lrwxrwxrwx 1 wangguojian wangguojian    4 2012-03-09 12:41 7105 -> 7005
+lrwxrwxrwx 1 wangguojian wangguojian    4 2012-03-09 12:41 7110 -> 7005
+drwxrwxr-x 2 wangguojian wangguojian 4096 2012-03-01 20:46 7116
+lrwxrwxrwx 1 wangguojian wangguojian    4 2012-03-09 12:41 7130 -> 7005
